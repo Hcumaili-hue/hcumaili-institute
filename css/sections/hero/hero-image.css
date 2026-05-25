@@ -1,1 +1,22 @@
+.hero-logo{
 
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  margin-bottom:2rem;
+}
+
+
+.hero-logo img{
+
+  width:320px;
+
+  max-width:80%;
+
+  height:auto;
+
+  display:block;
+}

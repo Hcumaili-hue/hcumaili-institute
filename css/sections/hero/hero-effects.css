@@ -12,7 +12,15 @@
 
   position:absolute;
 
-  inset:0;
+  top:50%;
+
+  left:50%;
+
+  transform:translate(-50%,-50%);
+
+  width:1000px;
+
+  height:1000px;
 
   background-image:
   url('../../../assets/logo/logo.png.jpg');
@@ -21,16 +29,17 @@
 
   background-position:center;
 
-  background-size:1000px;
+  background-size:contain;
 
-  opacity:.06;
-
-  filter:blur(1px);
+  opacity:.03;
 
   z-index:0;
+
+  pointer-events:none;
 }
 
 
+.hero-topbar,
 .hero-content{
 
   position:relative;

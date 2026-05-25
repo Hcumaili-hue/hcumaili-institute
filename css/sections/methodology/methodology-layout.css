@@ -1,1 +1,36 @@
+.methodology-container{
 
+  max-width:1200px;
+
+  margin:0 auto;
+
+  text-align:center;
+}
+
+
+.methodology-closing{
+
+  margin-top:7rem;
+}
+
+
+.methodology-closing p{
+
+  color:#666666;
+
+  font-size:1rem;
+
+  line-height:2;
+}
+
+
+.methodology-closing h3{
+
+  margin-top:2rem;
+
+  color:#9d7a33;
+
+  font-size:2.2rem;
+
+  font-weight:700;
+}

@@ -10,22 +10,9 @@
 
 .hero-background-logo{
 
-  position:absolute;
+  opacity:1 !important;
 
-  inset:0;
+  background-size:1400px !important;
 
-  background-image:
-  url('../../../assets/logo/logo.png.jpg');
-
-  background-repeat:no-repeat;
-
-  background-position:center center;
-
-  background-size:900px;
-
-  opacity:.30;
-
-  z-index:0;
-
-  pointer-events:none;
+  background-color:red !important;
 }

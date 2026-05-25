@@ -16,3 +16,23 @@
 
   padding:6rem 2rem;
 }
+.hero-content{
+
+  display:flex;
+
+  flex-direction:column;
+
+  align-items:center;
+
+  justify-content:center;
+
+  text-align:center;
+
+  max-width:1000px;
+
+  margin:0 auto;
+
+  padding:6rem 2rem;
+
+  min-height:115vh;
+}

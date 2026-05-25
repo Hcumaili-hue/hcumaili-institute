@@ -1,1 +1,46 @@
+.mission-container{
 
+  max-width:1200px;
+
+  margin:0 auto;
+
+  text-align:center;
+}
+
+
+.mission-pillars{
+
+  display:flex;
+
+  justify-content:center;
+
+  gap:1.2rem;
+
+  flex-wrap:wrap;
+
+  margin-top:4rem;
+}
+
+
+.mission-pillar{
+
+  padding:1rem 2rem;
+
+  border:1px solid rgba(157,122,51,.18);
+
+  border-radius:999px;
+}
+
+
+.mission-motto{
+
+  margin-top:4rem;
+
+  color:#9d7a33;
+
+  font-size:1rem;
+
+  font-style:italic;
+
+  letter-spacing:2px;
+}

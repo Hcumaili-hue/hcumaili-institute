@@ -4,9 +4,9 @@
 
   overflow:hidden;
 
-  background:#f7f2e8;
+  background:#f3ede2;
 
-  min-height:100vh;
+  min-height:105vh;
 }
 
 
@@ -29,9 +29,11 @@
 
   background-position:center top;
 
-  background-size:1200px;
+  background-size:1000px;
 
-  opacity:.15;
+  opacity:.12;
 
   z-index:0;
+
+  pointer-events:none;
 }

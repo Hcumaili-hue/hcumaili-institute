@@ -1,1 +1,21 @@
+.mission-pillar{
 
+  background:rgba(255,255,255,.35);
+
+  backdrop-filter:blur(10px);
+
+  transition:.35s ease;
+}
+
+
+.mission-pillar:hover{
+
+  transform:translateY(-4px);
+
+  border-color:#9d7a33;
+
+  background:rgba(255,255,255,.65);
+
+  box-shadow:
+  0 10px 30px rgba(157,122,51,.12);
+}

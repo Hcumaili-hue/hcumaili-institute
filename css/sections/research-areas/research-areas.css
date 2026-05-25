@@ -1,1 +1,58 @@
+.research-section{
 
+  background:#f7f2e8;
+
+  padding:10rem 2rem;
+}
+
+
+.research-label{
+
+  display:block;
+
+  margin-bottom:1.4rem;
+
+  color:#9d7a33;
+
+  font-size:.9rem;
+
+  font-weight:600;
+
+  letter-spacing:4px;
+
+  text-transform:uppercase;
+
+  text-align:center;
+}
+
+
+.research-title{
+
+  max-width:900px;
+
+  margin:0 auto 2rem;
+
+  text-align:center;
+
+  color:#111111;
+
+  font-size:3.6rem;
+
+  line-height:1.15;
+}
+
+
+.research-description{
+
+  max-width:720px;
+
+  margin:0 auto;
+
+  text-align:center;
+
+  color:#4d4d4d;
+
+  font-size:1.2rem;
+
+  line-height:2;
+}

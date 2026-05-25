@@ -1,1 +1,10 @@
+.research-card:hover{
 
+  transform:translateY(-8px);
+
+  border-color:#9d7a33;
+
+  box-shadow:
+  0 16px 40px
+  rgba(157,122,51,.12);
+}

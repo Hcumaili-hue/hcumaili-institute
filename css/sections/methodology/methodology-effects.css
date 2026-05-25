@@ -1,1 +1,14 @@
+.methodology-title,
+.methodology-question,
+.methodology-closing h3{
 
+  transition:.35s ease;
+}
+
+
+.methodology-title:hover,
+.methodology-question:hover,
+.methodology-closing h3:hover{
+
+  transform:translateY(-2px);
+}

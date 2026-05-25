@@ -1,1 +1,19 @@
+.libraries-container{
 
+  max-width:1300px;
+
+  margin:0 auto;
+}
+
+
+.libraries-grid{
+
+  display:grid;
+
+  grid-template-columns:
+  repeat(2,1fr);
+
+  gap:2rem;
+
+  margin-top:5rem;
+}

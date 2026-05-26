@@ -38,9 +38,9 @@ DOCK
 
   align-items:center;
 
-  gap:1.5rem;
+  gap:1.2rem;
 
-  padding:2rem 2.2rem;
+  padding:1.4rem 1.8rem;
 
   width:fit-content;
 
@@ -72,9 +72,9 @@ ICONS
 
 .dock-icon{
 
-  width:72px;
+  width:62px;
 
-  height:72px;
+  height:62px;
 
   border-radius:50%;
 
@@ -95,6 +95,22 @@ ICONS
   transition:.35s ease;
 }
 
+
+/* =========================
+HOVER
+========================= */
+
+.dock-item:hover .dock-icon{
+
+  transform:
+  translateY(-8px)
+  scale(1.08);
+
+  border-color:#c6a86a;
+
+  box-shadow:
+  0 14px 28px rgba(0,0,0,.16);
+}
 
 /* =========================
 LOGOS

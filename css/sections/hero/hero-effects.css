@@ -1,3 +1,7 @@
+/* =========================
+HERO SECTION
+========================= */
+
 .hero-section{
 
   position:relative;
@@ -10,30 +14,29 @@
 }
 
 
+/* =========================
+BACKGROUND LOGO
+========================= */
+
 .hero-background-logo{
 
   position:absolute;
 
-  top:0;
-
-  left:0;
-
-  width:100%;
-
-  height:100%;
+  inset:0;
 
   background-image:
-  url('../../../assets/logo/logo.png.jpg');
+    url('../../../assets/logo/logo.png.jpg');
 
   background-repeat:no-repeat;
 
-  background-position:center top;
+  background-position:
+    center 4rem;
 
-  background-size:1000px;
+  background-size:760px;
 
-  opacity:.12;
-
-  z-index:0;
+  opacity:.085;
 
   pointer-events:none;
+
+  z-index:0;
 }

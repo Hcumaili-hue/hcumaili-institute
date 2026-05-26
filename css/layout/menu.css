@@ -82,3 +82,89 @@ MENU TOGGLE
   background:
   rgba(157,122,51,.10);
 }
+/* =========================
+MENU PANEL
+========================= */
+
+.menu-panel{
+
+  position:absolute;
+
+  top:100%;
+
+  right:2rem;
+
+  width:280px;
+
+  padding:1rem;
+
+  display:flex;
+
+  flex-direction:column;
+
+  gap:.4rem;
+
+  background:
+  rgba(255,255,255,.92);
+
+  border:
+  1px solid rgba(157,122,51,.14);
+
+  border-radius:26px;
+
+  backdrop-filter:
+  blur(20px);
+
+  box-shadow:
+  0 24px 60px rgba(0,0,0,.12);
+
+  opacity:0;
+
+  visibility:hidden;
+
+  transform:
+  translateY(12px);
+
+  transition:
+  .28s ease;
+
+  z-index:1000;
+}
+
+
+/* ACTIVE */
+
+.menu-panel.active{
+
+  opacity:1;
+
+  visibility:visible;
+
+  transform:
+  translateY(0);
+}
+
+
+/* LINKS */
+
+.menu-panel a{
+
+  padding:1rem 1.1rem;
+
+  border-radius:18px;
+
+  text-decoration:none;
+
+  color:#111111;
+
+  transition:.25s ease;
+}
+
+
+.menu-panel a:hover{
+
+  background:
+  rgba(157,122,51,.08);
+
+  color:#9d7a33;
+}

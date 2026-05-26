@@ -1,30 +1,46 @@
 const searchToggle =
-document.querySelector('.search-toggle');
+document.querySelector(
+  '.search-toggle'
+);
 
 const searchPanel =
-document.querySelector('.search-panel');
+document.querySelector(
+  '.search-panel'
+);
 
 const searchClose =
-document.querySelector('.search-close');
+document.querySelector(
+  '.search-close'
+);
 
 
-searchToggle.addEventListener(
-'click',
-() => {
+if(
+  searchToggle &&
+  searchPanel &&
+  searchClose
+){
 
-  searchPanel.classList.add(
-    'active'
+  searchToggle.addEventListener(
+    'click',
+    () => {
+
+      searchPanel.classList.add(
+        'active'
+      );
+
+    }
   );
 
-});
 
+  searchClose.addEventListener(
+    'click',
+    () => {
 
-searchClose.addEventListener(
-'click',
-() => {
+      searchPanel.classList.remove(
+        'active'
+      );
 
-  searchPanel.classList.remove(
-    'active'
+    }
   );
 
-});
+}

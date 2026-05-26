@@ -1,1 +1,147 @@
+/* =========================
+FOOTER
+========================= */
 
+.footer-section{
+
+  padding:8rem 2rem 4rem;
+
+  background:#ece3d2;
+
+  border-top:
+  1px solid rgba(157,122,51,.12);
+
+  overflow:hidden;
+}
+
+
+.footer-container{
+
+  max-width:1300px;
+
+  margin:0 auto;
+
+  text-align:center;
+}
+
+
+/* =========================
+BRAND
+========================= */
+
+.footer-brand{
+
+  margin-bottom:5rem;
+}
+
+
+.footer-brand img{
+
+  width:150px;
+
+  max-width:80%;
+
+  height:auto;
+
+  margin-bottom:2rem;
+}
+
+
+.footer-brand h3{
+
+  margin-bottom:1.3rem;
+
+  color:#111111;
+
+  font-size:2.4rem;
+
+  font-weight:700;
+}
+
+
+.footer-brand p{
+
+  max-width:700px;
+
+  margin:0 auto;
+
+  color:#5b5b5b;
+
+  font-size:1.08rem;
+
+  line-height:2;
+}
+
+
+/* =========================
+EMAIL
+========================= */
+
+.footer-email{
+
+  display:inline-block;
+
+  margin-top:4rem;
+
+  margin-bottom:3rem;
+
+  color:#9d7a33;
+
+  font-size:1.08rem;
+
+  text-decoration:none;
+
+  transition:.3s ease;
+}
+
+
+/* =========================
+MOTTO
+========================= */
+
+.footer-motto{
+
+  margin-bottom:2.5rem;
+}
+
+
+.footer-motto p{
+
+  margin-bottom:.8rem;
+
+  color:#9d7a33;
+
+  font-family:'Cinzel',serif;
+
+  font-size:2rem;
+
+  font-weight:600;
+}
+
+
+.footer-motto span{
+
+  color:#7a7a7a;
+
+  font-size:1rem;
+
+  font-style:italic;
+
+  letter-spacing:1px;
+}
+
+
+/* =========================
+COPYRIGHT
+========================= */
+
+.footer-copy{
+
+  display:block;
+
+  color:#999999;
+
+  font-size:.95rem;
+
+  line-height:1.8;
+}

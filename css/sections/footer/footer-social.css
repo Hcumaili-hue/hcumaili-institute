@@ -251,7 +251,103 @@ LOGOS
 
   background-size:68%;
 }
+/* =========================
+EMAIL
+========================= */
 
+.footer-email{
+
+  display:inline-flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  margin-top:3rem;
+
+  margin-bottom:2.4rem;
+
+  padding:.95rem 1.8rem;
+
+  border-radius:999px;
+
+  text-decoration:none;
+
+  color:#9d7a33;
+
+  background:
+  rgba(157,122,51,.06);
+
+  border:
+  1px solid rgba(157,122,51,.14);
+
+  font-size:1rem;
+
+  font-weight:500;
+}
+
+
+/* =========================
+MOTTO
+========================= */
+
+.footer-motto{
+
+  display:flex;
+
+  flex-direction:column;
+
+  align-items:center;
+
+  margin-bottom:2rem;
+}
+
+
+.footer-motto p{
+
+  margin-bottom:.6rem;
+
+  color:#9d7a33;
+
+  font-family:'Cinzel',serif;
+
+  font-size:1.9rem;
+
+  font-weight:600;
+}
+
+
+.footer-motto span{
+
+  color:#777777;
+
+  font-size:1rem;
+
+  font-style:italic;
+
+  letter-spacing:1px;
+}
+
+
+/* =========================
+COPYRIGHT
+========================= */
+
+.footer-copy{
+
+  display:block;
+
+  padding-top:1.8rem;
+
+  border-top:
+  1px solid rgba(157,122,51,.12);
+
+  color:#999999;
+
+  font-size:.92rem;
+
+  line-height:1.9;
+}
 
 /* =========================
 RESPONSIVE

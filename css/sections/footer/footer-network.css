@@ -1,5 +1,5 @@
 /* =========================
-ACADEMIC NETWORK
+ACADEMIC NETWORK SECTION
 ========================= */
 
 .academic-dock-section{
@@ -25,22 +25,20 @@ ACADEMIC NETWORK
 
 
 /* =========================
-DOCK
+DOCK CONTAINER
 ========================= */
 
 .academic-dock{
 
   display:flex;
 
-  flex-wrap:wrap;
-
   justify-content:center;
 
   align-items:center;
 
-  gap:1.2rem;
+  flex-wrap:wrap;
 
-  padding:1.4rem 1.8rem;
+  gap:1.2rem;
 
   width:fit-content;
 
@@ -48,12 +46,14 @@ DOCK
 
   margin:0 auto;
 
-  background:#e8ded0;
+  padding:1.4rem 1.8rem;
 
-  border-radius:999px;
+  background:#e8ded0;
 
   border:
   1px solid rgba(157,122,51,.18);
+
+  border-radius:999px;
 
   box-shadow:
   0 16px 40px rgba(0,0,0,.08);
@@ -61,14 +61,20 @@ DOCK
 
 
 /* =========================
-ICONS
+DOCK ITEMS
 ========================= */
 
 .dock-item{
 
   text-decoration:none;
+
+  position:relative;
 }
 
+
+/* =========================
+DOCK ICON
+========================= */
 
 .dock-icon{
 
@@ -92,26 +98,66 @@ ICONS
   box-shadow:
   0 8px 20px rgba(0,0,0,.12);
 
-  transition:.35s ease;
+  transition:
+
+    transform .35s ease,
+
+    box-shadow .35s ease,
+
+    border-color .35s ease,
+
+    filter .35s ease;
 }
 
 
 /* =========================
-HOVER
+HOVER EFFECT
 ========================= */
 
 .dock-item:hover .dock-icon{
 
   transform:
-  translateY(-8px)
-  scale(1.08);
+
+    translateY(-14px)
+
+    scale(1.28);
 
   border-color:#c6a86a;
 
   box-shadow:
-  0 14px 28px rgba(0,0,0,.16);
+    0 18px 38px rgba(157,122,51,.28);
+
+  filter:
+
+    saturate(1.08)
+
+    brightness(1.05);
 }
 
+
+/* =========================
+RESPONSIVE
+========================= */
+
+@media(max-width:768px){
+
+  .academic-dock{
+
+    padding:1.2rem;
+
+    gap:.9rem;
+
+    border-radius:42px;
+  }
+
+  .dock-icon{
+
+    width:56px;
+
+    height:56px;
+  }
+
+}
 /* =========================
 LOGOS
 ========================= */

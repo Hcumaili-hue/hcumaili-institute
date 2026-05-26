@@ -1,1 +1,105 @@
+/* =========================
+NAVBAR SEARCH
+========================= */
 
+.navbar-search{
+
+  display:flex;
+
+  align-items:center;
+
+  gap:.8rem;
+
+  padding:.75rem 1.1rem;
+
+  min-width:260px;
+
+  background:
+  rgba(255,255,255,.72);
+
+  border:
+  1px solid rgba(157,122,51,.14);
+
+  border-radius:999px;
+
+  backdrop-filter:
+  blur(12px);
+
+  box-shadow:
+  0 10px 30px rgba(0,0,0,.06);
+
+  transition:
+  .3s ease;
+}
+
+
+/* =========================
+HOVER
+========================= */
+
+.navbar-search:hover{
+
+  border-color:
+  rgba(157,122,51,.28);
+
+  box-shadow:
+  0 16px 34px rgba(157,122,51,.10);
+}
+
+
+/* =========================
+ICON
+========================= */
+
+.search-toggle{
+
+  border:none;
+
+  background:none;
+
+  cursor:pointer;
+
+  padding:0;
+
+  color:#9d7a33;
+
+  font-size:1rem;
+
+  transition:
+  transform .25s ease;
+}
+
+
+.search-toggle:hover{
+
+  transform:
+  scale(1.08);
+}
+
+
+/* =========================
+INPUT
+========================= */
+
+.search-input{
+
+  width:100%;
+
+  border:none;
+
+  outline:none;
+
+  background:transparent;
+
+  color:#111111;
+
+  font-size:.96rem;
+
+  font-family:inherit;
+}
+
+
+.search-input::placeholder{
+
+  color:#8b8b8b;
+}

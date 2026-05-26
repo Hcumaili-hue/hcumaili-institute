@@ -1,0 +1,33 @@
+/* =========================
+PUBLICATION EFFECTS
+========================= */
+
+.publication-cover img{
+
+  transition:.35s ease;
+}
+
+
+.publication-cover img:hover{
+
+  transform:
+  translateY(-8px);
+
+  box-shadow:
+  0 24px 48px rgba(0,0,0,.12);
+}
+
+
+.publication-btn-primary,
+.publication-btn-secondary{
+
+  transition:.35s ease;
+}
+
+
+.publication-btn-primary:hover,
+.publication-btn-secondary:hover{
+
+  transform:
+  translateY(-3px);
+}

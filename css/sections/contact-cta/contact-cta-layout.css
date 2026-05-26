@@ -1,1 +1,48 @@
+.contact-cta-container{
 
+  max-width:1200px;
+
+  margin:0 auto;
+
+  text-align:center;
+}
+
+
+.contact-cta-buttons{
+
+  display:flex;
+
+  justify-content:center;
+
+  gap:1.2rem;
+
+  flex-wrap:wrap;
+
+  margin-top:4rem;
+}
+
+
+.contact-cta-motto{
+
+  margin-top:4rem;
+}
+
+
+.contact-cta-motto p{
+
+  margin-bottom:.4rem;
+
+  color:#9d7a33;
+
+  font-size:1rem;
+
+  letter-spacing:1.5px;
+}
+
+
+.contact-cta-motto span{
+
+  color:#777777;
+
+  font-size:.95rem;
+}

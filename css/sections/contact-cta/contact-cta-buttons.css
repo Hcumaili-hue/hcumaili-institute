@@ -1,1 +1,45 @@
+.contact-cta-buttons{
 
+  display:flex;
+
+  justify-content:center;
+
+  gap:1.2rem;
+
+  flex-wrap:wrap;
+
+  margin-top:4rem;
+}
+
+
+.cta-btn-primary,
+.cta-btn-secondary{
+
+  padding:1rem 2rem;
+
+  border-radius:999px;
+
+  text-decoration:none;
+
+  transition:.35s ease;
+
+  font-size:1rem;
+
+  font-weight:500;
+}
+
+
+.cta-btn-primary{
+
+  background:#9d7a33;
+
+  color:#ffffff;
+}
+
+
+.cta-btn-secondary{
+
+  border:1px solid rgba(157,122,51,.25);
+
+  color:#4d4d4d;
+}

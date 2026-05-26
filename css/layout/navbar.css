@@ -1,95 +1,89 @@
 /* =========================
-NAVBAR SEARCH
+SITE HEADER
 ========================= */
 
-.navbar-search{
+.site-header{
 
-  display:flex;
+  position:sticky;
 
-  align-items:center;
+  top:0;
 
-  gap:.8rem;
+  z-index:1000;
 
-  min-width:260px;
-
-  padding:.75rem 1.1rem;
+  width:100%;
 
   background:
-  rgba(255,255,255,.72);
-
-  border:
-  1px solid rgba(157,122,51,.14);
-
-  border-radius:999px;
+  rgba(243,237,226,.88);
 
   backdrop-filter:
-  blur(12px);
+  blur(18px);
 
-  box-shadow:
-  0 10px 30px rgba(0,0,0,.06);
-
-  transition:
-  .3s ease;
+  border-bottom:
+  1px solid rgba(157,122,51,.08);
 }
 
 
 /* =========================
-HOVER
+NAVBAR CONTAINER
 ========================= */
 
-.navbar-search:hover{
-
-  border-color:
-  rgba(157,122,51,.28);
-
-  box-shadow:
-  0 16px 34px rgba(157,122,51,.10);
-}
-
-
-/* =========================
-SEARCH ICON
-========================= */
-
-.search-icon{
+.navbar-container{
 
   display:flex;
 
-  justify-content:center;
-
   align-items:center;
 
-  color:#9d7a33;
+  justify-content:space-between;
 
-  font-size:1rem;
+  gap:2rem;
+
+  max-width:1400px;
+
+  margin:0 auto;
+
+  padding:
+    1.2rem
+    2rem;
+}
+
+
+/* =========================
+SITE LOGO
+========================= */
+
+.site-logo{
+
+  flex-shrink:0;
+
+  color:#111111;
+
+  text-decoration:none;
+
+  font-size:1.15rem;
+
+  font-weight:700;
+
+  letter-spacing:.4px;
+}
+
+
+/* =========================
+COMPONENT HOSTING
+========================= */
+
+.main-nav{
+
+  flex:1;
+}
+
+
+.navbar-search{
 
   flex-shrink:0;
 }
 
 
-/* =========================
-SEARCH INPUT
-========================= */
+.menu-toggle{
 
-.search-input{
-
-  width:100%;
-
-  border:none;
-
-  outline:none;
-
-  background:transparent;
-
-  color:#111111;
-
-  font-size:.96rem;
-
-  font-family:inherit;
-}
-
-
-.search-input::placeholder{
-
-  color:#8b8b8b;
+  flex-shrink:0;
 }

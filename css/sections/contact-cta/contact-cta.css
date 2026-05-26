@@ -1,1 +1,50 @@
+.contact-cta-section{
 
+  padding:10rem 2rem;
+
+  background:#f3ede2;
+}
+
+
+.contact-cta-label{
+
+  display:block;
+
+  margin-bottom:1rem;
+
+  color:#9d7a33;
+
+  font-size:.95rem;
+
+  font-weight:600;
+
+  letter-spacing:4px;
+
+  text-transform:uppercase;
+}
+
+
+.contact-cta-title{
+
+  margin-bottom:2rem;
+
+  color:#111111;
+
+  font-size:4.2rem;
+
+  line-height:1.1;
+}
+
+
+.contact-cta-description{
+
+  max-width:700px;
+
+  margin:0 auto;
+
+  color:#5b5b5b;
+
+  font-size:1.2rem;
+
+  line-height:2;
+}

@@ -1,1 +1,82 @@
+/* =========================
+SEARCH UI
+========================= */
 
+.search-box{
+
+  position:relative;
+
+  width:min(720px,90vw);
+
+  padding:2.4rem;
+
+  background:#f5efe4;
+
+  border-radius:34px;
+
+  border:
+  1px solid rgba(157,122,51,.12);
+
+  box-shadow:
+  0 30px 60px rgba(0,0,0,.14);
+}
+
+
+.search-label{
+
+  display:block;
+
+  margin-bottom:1rem;
+
+  color:#9d7a33;
+
+  font-size:.92rem;
+
+  font-weight:600;
+
+  letter-spacing:3px;
+
+  text-transform:uppercase;
+}
+
+
+.search-input{
+
+  width:100%;
+
+  border:none;
+
+  outline:none;
+
+  background:transparent;
+
+  font-size:1.15rem;
+
+  color:#111111;
+}
+
+
+.search-input::placeholder{
+
+  color:#8a8a8a;
+}
+
+
+.search-close{
+
+  position:absolute;
+
+  top:1.4rem;
+
+  right:1.4rem;
+
+  border:none;
+
+  background:none;
+
+  cursor:pointer;
+
+  font-size:1rem;
+
+  color:#666666;
+}

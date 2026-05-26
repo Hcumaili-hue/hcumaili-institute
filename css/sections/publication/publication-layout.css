@@ -1,1 +1,100 @@
+/* =========================
+PUBLICATION LAYOUT
+========================= */
 
+.publication-container{
+
+  display:grid;
+
+  grid-template-columns:
+  340px 1fr;
+
+  gap:5rem;
+
+  align-items:center;
+
+  max-width:1300px;
+
+  margin:0 auto;
+}
+
+
+/* COVER */
+
+.publication-cover img{
+
+  width:100%;
+
+  border-radius:26px;
+
+  display:block;
+}
+
+
+/* BUTTONS */
+
+.publication-buttons{
+
+  display:flex;
+
+  gap:1rem;
+
+  flex-wrap:wrap;
+
+  margin-top:2.5rem;
+}
+
+
+.publication-btn-primary,
+.publication-btn-secondary{
+
+  display:inline-flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  padding:1rem 1.8rem;
+
+  border-radius:999px;
+
+  text-decoration:none;
+}
+
+
+.publication-btn-primary{
+
+  background:#9d7a33;
+
+  color:#ffffff;
+}
+
+
+.publication-btn-secondary{
+
+  border:
+  1px solid rgba(157,122,51,.18);
+
+  color:#4d4d4d;
+}
+
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+
+  .publication-container{
+
+    grid-template-columns:1fr;
+
+    gap:3rem;
+  }
+
+  .publication-cover{
+
+    max-width:340px;
+
+    margin:0 auto;
+  }
+
+}

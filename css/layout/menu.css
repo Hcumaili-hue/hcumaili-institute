@@ -62,25 +62,49 @@ MENU TOGGLE
   border-radius:50%;
 
   background:
-  rgba(255,255,255,.72);
+  rgba(255,255,255,.78);
 
-  color:#111111;
+  border:
+  1px solid rgba(157,122,51,.14);
+
+  box-shadow:
+  0 10px 30px rgba(0,0,0,.06);
 
   cursor:pointer;
 
+  flex-shrink:0;
+
   transition:
-    transform .3s ease,
-    background .3s ease;
+  transform .3s ease,
+  background .3s ease,
+  border-color .3s ease,
+  box-shadow .3s ease;
 }
 
 
 .menu-toggle:hover{
 
   transform:
-    scale(1.05);
+  translateY(-1px);
 
   background:
-  rgba(157,122,51,.10);
+  rgba(157,122,51,.08);
+
+  border-color:
+  rgba(157,122,51,.25);
+
+  box-shadow:
+  0 16px 34px rgba(157,122,51,.10);
+}
+
+
+/* ICON */
+
+.menu-toggle i{
+
+  color:#9d7a33;
+
+  font-size:1rem;
 }
 /* =========================
 MENU PANEL

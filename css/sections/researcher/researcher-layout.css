@@ -1,1 +1,83 @@
+/* =========================
+RESEARCHER LAYOUT
+========================= */
 
+.researcher-container{
+
+  display:grid;
+
+  grid-template-columns:
+  320px 1fr;
+
+  gap:5rem;
+
+  align-items:start;
+
+  max-width:1300px;
+
+  margin:0 auto;
+}
+
+
+/* PROFILE */
+
+.researcher-profile{
+
+  text-align:center;
+}
+
+
+.researcher-profile img{
+
+  width:100%;
+
+  border-radius:26px;
+
+  object-fit:cover;
+
+  margin-bottom:1.8rem;
+}
+
+
+.researcher-profile h3{
+
+  margin-bottom:.5rem;
+
+  color:#111111;
+
+  font-size:2rem;
+}
+
+
+.researcher-role{
+
+  color:#9d7a33;
+
+  font-size:1rem;
+}
+
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+
+  .researcher-container{
+
+    grid-template-columns:1fr;
+
+    gap:3rem;
+  }
+
+  .researcher-profile{
+
+    max-width:360px;
+
+    margin:0 auto;
+  }
+
+  .researcher-content{
+
+    text-align:center;
+  }
+
+}

@@ -1,58 +1,80 @@
+/* =========================
+HERO MOTTO TOP
+========================= */
+
 .hero-motto-top{
 
-  margin-bottom:1.6rem;
+  margin-bottom:1.8rem;
 
   color:#9d7a33;
 
-  font-size:.95rem;
+  font-size:.92rem;
 
-  font-weight:600;
+  font-weight:700;
 
-  letter-spacing:3px;
+  letter-spacing:4px;
 
   text-transform:uppercase;
 }
 
 
+/* =========================
+HERO TITLE
+========================= */
+
 .hero-title{
 
-  margin-top:1.8rem;
+  margin-top:1.4rem;
 
   margin-bottom:2rem;
 
   color:#111111;
 
-  font-size:4.8rem;
+  font-size:5.4rem;
 
   font-weight:700;
 
-  line-height:1.08;
+  line-height:1.02;
+
+  letter-spacing:-2px;
+
+  max-width:980px;
+
+  margin-inline:auto;
 }
 
 
+/* =========================
+HERO DESCRIPTION
+========================= */
+
 .hero-description{
 
-  max-width:620px;
+  max-width:760px;
 
   margin:0 auto;
 
   color:#4d4d4d;
 
-  font-size:1.2rem;
+  font-size:1.18rem;
 
-  line-height:2;
+  line-height:2.1;
 }
 
 
+/* =========================
+HERO MOTTO BOTTOM
+========================= */
+
 .hero-motto-bottom{
 
-  margin-top:2.8rem;
+  margin-top:3rem;
 
   color:#9d7a33;
 
-  font-size:.95rem;
+  font-size:1rem;
 
   font-style:italic;
 
-  letter-spacing:1.5px;
+  letter-spacing:2px;
 }

@@ -1,1 +1,84 @@
+/* =========================
+MAIN NAVIGATION
+========================= */
 
+.main-nav{
+
+  display:flex;
+
+  align-items:center;
+
+  justify-content:center;
+
+  gap:2rem;
+}
+
+
+/* =========================
+NAV LINKS
+========================= */
+
+.main-nav a{
+
+  position:relative;
+
+  color:#111111;
+
+  text-decoration:none;
+
+  font-size:.95rem;
+
+  font-weight:500;
+
+  transition:
+    color .3s ease;
+}
+
+
+.main-nav a:hover{
+
+  color:#9d7a33;
+}
+
+
+/* =========================
+MENU TOGGLE
+========================= */
+
+.menu-toggle{
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  width:48px;
+
+  height:48px;
+
+  border:none;
+
+  border-radius:50%;
+
+  background:
+  rgba(255,255,255,.72);
+
+  color:#111111;
+
+  cursor:pointer;
+
+  transition:
+    transform .3s ease,
+    background .3s ease;
+}
+
+
+.menu-toggle:hover{
+
+  transform:
+    scale(1.05);
+
+  background:
+  rgba(157,122,51,.10);
+}

@@ -1,90 +1,8 @@
 /* =========================
-SEARCH UI
+SEARCH RESULTS
 ========================= */
 
-.search-box{
-
-  position:relative;
-
-  width:min(720px,90vw);
-
-  padding:2.4rem;
-
-  background:#f5efe4;
-
-  border-radius:34px;
-
-  border:
-  1px solid rgba(157,122,51,.12);
-
-  box-shadow:
-  0 30px 60px rgba(0,0,0,.14);
-}
-
-
-.search-label{
-
-  display:block;
-
-  margin-bottom:1rem;
-
-  color:#9d7a33;
-
-  font-size:.92rem;
-
-  font-weight:600;
-
-  letter-spacing:3px;
-
-  text-transform:uppercase;
-}
-
-
-.search-input{
-
-  width:100%;
-
-  border:none;
-
-  outline:none;
-
-  background:transparent;
-
-  font-size:1.15rem;
-
-  color:#111111;
-}
-
-
-.search-input::placeholder{
-
-  color:#8a8a8a;
-}
-
-
-.search-close{
-
-  position:absolute;
-
-  top:1.4rem;
-
-  right:1.4rem;
-
-  border:none;
-
-  background:none;
-
-  cursor:pointer;
-
-  font-size:1rem;
-
-  color:#666666;
-}
-/* =========================
-SEARCH DROPDOWN
-========================= */
-
-.search-dropdown{
+.search-results{
 
   position:absolute;
 
@@ -114,13 +32,15 @@ SEARCH DROPDOWN
   translateY(12px);
 
   transition:.28s ease;
+
+  z-index:1000;
 }
 
 
 /* SHOW */
 
 .navbar-search:focus-within
-.search-dropdown{
+.search-results{
 
   opacity:1;
 
@@ -131,27 +51,37 @@ SEARCH DROPDOWN
 }
 
 
-/* LINKS */
+/* RESULT ITEM */
 
-.search-dropdown a{
+.search-result-item{
 
   display:block;
 
-  padding:.9rem 1rem;
+  width:100%;
+
+  padding:.95rem 1rem;
+
+  border:none;
 
   border-radius:14px;
 
-  text-decoration:none;
+  background:transparent;
+
+  text-align:left;
 
   color:#111111;
 
   font-size:.95rem;
 
+  cursor:pointer;
+
   transition:.25s ease;
 }
 
 
-.search-dropdown a:hover{
+/* HOVER */
+
+.search-result-item:hover{
 
   background:
   rgba(157,122,51,.08);

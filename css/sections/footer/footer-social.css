@@ -109,32 +109,6 @@ DOCK ICON
     filter .35s ease;
 }
 
-
-/* =========================
-HOVER EFFECT
-========================= */
-
-.dock-item:hover .dock-icon{
-
-  transform:
-
-    translateY(-14px)
-
-    scale(1.28);
-
-  border-color:#c6a86a;
-
-  box-shadow:
-    0 18px 38px rgba(157,122,51,.28);
-
-  filter:
-
-    saturate(1.08)
-
-    brightness(1.05);
-}
-
-
 /* =========================
 RESPONSIVE
 ========================= */

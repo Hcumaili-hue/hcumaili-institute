@@ -1,1 +1,49 @@
+.current-research-section{
 
+  padding:8rem 6%;
+
+  background:#f3ede2;
+
+  text-align:center;
+}
+
+.current-research-label{
+
+  display:block;
+
+  margin-bottom:1rem;
+
+  color:#9d7a33;
+
+  font-size:.95rem;
+
+  font-weight:600;
+
+  letter-spacing:4px;
+}
+
+.current-research-title{
+
+  max-width:980px;
+
+  margin:0 auto 2rem;
+
+  color:#111111;
+
+  font-size:4rem;
+
+  line-height:1.15;
+}
+
+.current-research-description{
+
+  max-width:760px;
+
+  margin:0 auto 5rem;
+
+  color:#5b5b5b;
+
+  font-size:1.2rem;
+
+  line-height:2;
+}

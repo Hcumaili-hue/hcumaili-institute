@@ -53,6 +53,12 @@ SITE LOGO
 
 .site-logo{
 
+  display:flex;
+
+  align-items:center;
+
+  gap:.9rem;
+
   flex-shrink:0;
 
   color:#111111;
@@ -65,8 +71,20 @@ SITE LOGO
 
   letter-spacing:.4px;
 }
+/* =========================
+NAVBAR LOGO IMAGE
+========================= */
 
+.site-logo img{
 
+  width:44px;
+
+  height:auto;
+
+  display:block;
+
+  flex-shrink:0;
+}
 /* =========================
 COMPONENT HOSTING
 ========================= */

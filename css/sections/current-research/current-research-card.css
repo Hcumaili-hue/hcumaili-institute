@@ -1,8 +1,11 @@
 .current-research-card{
 
+  display:block;
+
   background:#f8f4ec;
 
-  border:1px solid #e3dbcd;
+  border:
+  1px solid #e3dbcd;
 
   border-radius:34px;
 
@@ -10,8 +13,37 @@
 
   text-align:left;
 
-  transition:.35s ease;
+  text-decoration:none;
+
+  color:inherit;
+
+  transition:
+  transform .35s ease,
+  border-color .35s ease,
+  box-shadow .35s ease;
 }
+
+
+/* =========================
+HOVER
+========================= */
+
+.current-research-card:hover{
+
+  transform:
+  translateY(-4px);
+
+  border-color:
+  rgba(157,122,51,.28);
+
+  box-shadow:
+  0 22px 50px rgba(0,0,0,.08);
+}
+
+
+/* =========================
+NUMBER
+========================= */
 
 .research-number{
 
@@ -24,7 +56,14 @@
   font-size:.9rem;
 
   letter-spacing:3px;
+
+  text-decoration:none;
 }
+
+
+/* =========================
+TITLE
+========================= */
 
 .current-research-card h3{
 
@@ -35,11 +74,20 @@
   font-size:2rem;
 
   line-height:1.2;
+
+  text-decoration:none;
 }
+
+
+/* =========================
+DESCRIPTION
+========================= */
 
 .current-research-card p{
 
   color:#595959;
 
   line-height:2;
+
+  text-decoration:none;
 }

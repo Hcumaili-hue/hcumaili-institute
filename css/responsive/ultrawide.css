@@ -1,1 +1,84 @@
+/* =========================
+ULTRAWIDE
+========================= */
 
+@media(min-width:1600px){
+
+/* CONTAINER */
+
+.container{
+
+  width:min(1600px,88%);
+}
+
+
+/* HERO */
+
+.hero-layout{
+
+  grid-template-columns:
+  1.1fr .9fr;
+
+  gap:120px;
+}
+
+.hero-text-section h1{
+
+  font-size:110px;
+}
+
+.hero-text{
+
+  font-size:28px;
+
+  max-width:900px;
+}
+
+
+/* MISSION */
+
+.mission-layout{
+
+  gap:120px;
+}
+
+
+/* RESEARCHER */
+
+.researcher-layout{
+
+  gap:120px;
+}
+
+
+/* RESEARCH AREAS */
+
+.research-areas-grid{
+
+  grid-template-columns:
+  repeat(4,1fr);
+
+  gap:32px;
+}
+
+
+/* CURRENT RESEARCH */
+
+.current-research-grid{
+
+  grid-template-columns:
+  repeat(4,1fr);
+
+  gap:32px;
+}
+
+
+/* LIBRARY CARDS */
+
+.library-grid{
+
+  grid-template-columns:
+  repeat(4,1fr);
+}
+
+}

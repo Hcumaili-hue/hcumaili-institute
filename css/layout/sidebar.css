@@ -1,1 +1,77 @@
 
+/* =========================
+SIDEBAR
+========================= */
+
+.side-menu{
+
+  position:fixed;
+
+  top:0;
+  right:0;
+
+  width:min(85vw,360px);
+
+  height:100vh;
+
+  overflow-y:auto;
+
+  background:#f5efe5;
+
+  padding:100px 28px 40px;
+}
+
+
+/* MAIN LINKS */
+
+.side-menu > a{
+
+  display:block;
+
+  padding:16px 0;
+
+  font-size:18px;
+
+  text-decoration:none;
+}
+
+
+/* LIBRARY SECTION */
+
+.sidebar-group{
+
+  margin-top:28px;
+}
+
+
+/* TITLE */
+
+.sidebar-group-title{
+
+  font-size:14px;
+
+  letter-spacing:2px;
+
+  margin-bottom:12px;
+
+  opacity:.7;
+}
+
+
+/* SUB ITEMS */
+
+.sidebar-submenu{
+
+  padding-left:18px;
+}
+
+.sidebar-submenu a{
+
+  display:block;
+
+  padding:12px 0;
+
+  font-size:16px;
+
+  text-decoration:none;
+}

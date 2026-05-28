@@ -55,29 +55,3 @@ RESEARCHER LAYOUT
 
   font-size:1rem;
 }
-
-
-/* RESPONSIVE */
-
-@media(max-width:900px){
-
-  .researcher-container{
-
-    grid-template-columns:1fr;
-
-    gap:3rem;
-  }
-
-  .researcher-profile{
-
-    max-width:360px;
-
-    margin:0 auto;
-  }
-
-  .researcher-content{
-
-    text-align:center;
-  }
-
-}

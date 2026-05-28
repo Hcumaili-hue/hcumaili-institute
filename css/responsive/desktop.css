@@ -1,1 +1,84 @@
+/* =========================
+DESKTOP
+DEFAULT
+========================= */
 
+@media(min-width:1200px){
+
+/* CONTAINER */
+
+.container{
+
+  width:min(1400px,92%);
+}
+
+
+/* HERO */
+
+.hero-layout{
+
+  display:grid;
+
+  grid-template-columns:
+  1.1fr .9fr;
+
+  align-items:center;
+
+  gap:90px;
+}
+
+.hero-text-section h1{
+
+  font-size:96px;
+}
+
+.hero-text{
+
+  font-size:24px;
+}
+
+
+/* MISSION */
+
+.mission-layout{
+
+  display:grid;
+
+  grid-template-columns:
+  1fr 1fr;
+
+  gap:90px;
+}
+
+
+/* RESEARCHER */
+
+.researcher-layout{
+
+  display:grid;
+
+  grid-template-columns:
+  .9fr 1.1fr;
+
+  gap:90px;
+}
+
+
+/* RESEARCH AREAS */
+
+.research-areas-grid{
+
+  grid-template-columns:
+  repeat(3,1fr);
+}
+
+
+/* CURRENT RESEARCH */
+
+.current-research-grid{
+
+  grid-template-columns:
+  repeat(3,1fr);
+}
+
+}

@@ -110,29 +110,6 @@ DOCK ICON
 }
 
 /* =========================
-RESPONSIVE
-========================= */
-
-@media(max-width:768px){
-
-  .academic-dock{
-
-    padding:1.2rem;
-
-    gap:.9rem;
-
-    border-radius:42px;
-  }
-
-  .dock-icon{
-
-    width:56px;
-
-    height:56px;
-  }
-
-}
-/* =========================
 LOGOS
 ========================= */
 
@@ -321,28 +298,4 @@ COPYRIGHT
   font-size:.92rem;
 
   line-height:1.9;
-}
-
-/* =========================
-RESPONSIVE
-========================= */
-
-@media(max-width:768px){
-
-  .academic-dock{
-
-    border-radius:42px;
-
-    padding:1.5rem;
-
-    gap:1rem;
-  }
-
-  .dock-icon{
-
-    width:60px;
-
-    height:60px;
-  }
-
 }

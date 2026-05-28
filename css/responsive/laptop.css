@@ -1,1 +1,58 @@
+/* =========================
+LAPTOP
+========================= */
 
+@media(max-width:1400px){
+
+/* HERO */
+
+.hero-layout{
+
+  gap:60px;
+}
+
+.hero-text-section h1{
+
+  font-size:72px;
+}
+
+.hero-text{
+
+  font-size:22px;
+}
+
+
+/* MISSION */
+
+.mission-layout{
+
+  gap:60px;
+}
+
+
+/* RESEARCHER */
+
+.researcher-layout{
+
+  gap:60px;
+}
+
+
+/* RESEARCH AREAS */
+
+.research-areas-grid{
+
+  grid-template-columns:
+  repeat(2,1fr);
+}
+
+
+/* CURRENT RESEARCH */
+
+.current-research-grid{
+
+  grid-template-columns:
+  repeat(2,1fr);
+}
+
+}

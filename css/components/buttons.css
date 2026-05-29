@@ -1,1 +1,178 @@
+```css id="spbx10"
+/* =========================
+BUTTON SYSTEM
+H. CUMAILI LAB
+========================= */
+
+
+/* =========================
+BASE BUTTON
+========================= */
+
+.btn{
+
+  display:inline-flex;
+
+  align-items:center;
+
+  justify-content:center;
+
+  gap:12px;
+
+  padding:18px 34px;
+
+  border:none;
+
+  border-radius:999px;
+
+  text-decoration:none;
+
+  cursor:pointer;
+
+  transition:
+  transform .3s ease,
+  background .3s ease,
+  color .3s ease,
+  border-color .3s ease,
+  box-shadow .3s ease;
+
+  font-size:1rem;
+
+  font-weight:600;
+
+  line-height:1;
+}
+
+
+/* =========================
+HOVER
+========================= */
+
+.btn:hover{
+
+  transform:translateY(-3px);
+}
+
+
+/* =========================
+PRIMARY BUTTON
+========================= */
+
+.btn-primary{
+
+  background:#111111;
+
+  color:#f7f2e8;
+}
+
+.btn-primary:hover{
+
+  box-shadow:
+  0 14px 34px rgba(0,0,0,.15);
+}
+
+
+/* =========================
+SECONDARY BUTTON
+========================= */
+
+.btn-secondary{
+
+  background:#f3ede2;
+
+  color:#111111;
+}
+
+.btn-secondary:hover{
+
+  background:#e8decb;
+}
+
+
+/* =========================
+OUTLINE BUTTON
+========================= */
+
+.btn-outline{
+
+  background:transparent;
+
+  border:1px solid #c9b892;
+
+  color:#9d7a33;
+}
+
+.btn-outline:hover{
+
+  background:#f3ede2;
+}
+
+
+/* =========================
+GHOST BUTTON
+========================= */
+
+.btn-ghost{
+
+  background:transparent;
+
+  color:#111111;
+}
+
+.btn-ghost:hover{
+
+  background:#f7f2e8;
+}
+
+
+/* =========================
+DARK BUTTON
+========================= */
+
+.btn-dark{
+
+  background:#111111;
+
+  color:#ffffff;
+}
+
+
+/* =========================
+BUTTON SIZES
+========================= */
+
+.btn-sm{
+
+  padding:14px 24px;
+
+  font-size:.9rem;
+}
+
+.btn-lg{
+
+  padding:22px 42px;
+
+  font-size:1.1rem;
+}
+
+
+/* =========================
+FULL WIDTH BUTTON
+========================= */
+
+.btn-block{
+
+  width:100%;
+}
+
+
+/* =========================
+ICON
+========================= */
+
+.btn-icon{
+
+  font-size:1rem;
+}
+```
 

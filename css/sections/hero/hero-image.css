@@ -10,7 +10,7 @@ HERO LOGO WRAPPER
 
   align-items:center;
 
-  margin-bottom:2rem;
+  margin-bottom:2.2rem;
 }
 
 
@@ -20,15 +20,21 @@ HERO LOGO IMAGE
 
 .hero-logo img{
 
-  width:220px;
+  width:250px;
 
-  max-width:62%;
+  max-width:70%;
 
   height:auto;
 
   display:block;
 
-  opacity:.96;
+  opacity:.98;
+
+  filter:
+  drop-shadow(
+    0 10px 24px
+    rgba(157,122,51,.12)
+  );
 }
 
 
@@ -47,11 +53,12 @@ BACKGROUND LOGO
 
   background-repeat:no-repeat;
 
-  background-position:center;
+  background-position:
+  center 10rem;
 
-  background-size:520px;
+  background-size:560px;
 
-  opacity:.03;
+  opacity:.028;
 
   pointer-events:none;
 

@@ -14,11 +14,6 @@ HERO SECTION
 
 }
 
-
-/* =========================
-HERO BANNER
-========================= */
-
 /* =========================
 HERO BANNER
 ========================= */
@@ -35,7 +30,7 @@ HERO BANNER
 
   transform:translateX(-50%);
 
-  width:min(88%, 1180px);
+  width:min(88%, 800px);
 
   height:420px;
 

@@ -1,1 +1,231 @@
+```css
+/* =========================
+CARD SYSTEM
+H. CUMAILI LAB
+========================= */
+
+
+/* =========================
+BASE CARD
+========================= */
+
+.card{
+
+  position:relative;
+
+  background:#fbf7ef;
+
+  border:1px solid #e7dfd1;
+
+  border-radius:36px;
+
+  padding:42px;
+
+  overflow:hidden;
+
+  transition:
+  transform .35s ease,
+  border-color .35s ease,
+  box-shadow .35s ease;
+}
+
+.card:hover{
+
+  transform:translateY(-8px);
+
+  border-color:#d5c4a2;
+
+  box-shadow:
+  0 24px 60px rgba(0,0,0,.06);
+}
+
+
+/* =========================
+CARD NUMBER
+========================= */
+
+.card-number{
+
+  display:block;
+
+  margin-bottom:22px;
+
+  color:#9d7a33;
+
+  font-size:.9rem;
+
+  font-weight:600;
+
+  letter-spacing:2px;
+}
+
+
+/* =========================
+CARD TITLE
+========================= */
+
+.card-title{
+
+  margin:0 0 18px;
+
+  color:#111111;
+
+  font-size:2rem;
+
+  font-weight:600;
+
+  line-height:1.15;
+}
+
+
+/* =========================
+CARD TEXT
+========================= */
+
+.card-text{
+
+  margin:0;
+
+  color:#4d4d4d;
+
+  font-size:1rem;
+
+  line-height:2;
+}
+
+
+/* =========================
+CARD LINK
+========================= */
+
+.card-link{
+
+  text-decoration:none;
+
+  color:inherit;
+
+  display:block;
+}
+
+
+/* =========================
+CARD BADGE
+========================= */
+
+.card-badge{
+
+  display:inline-flex;
+
+  align-items:center;
+
+  gap:8px;
+
+  margin-bottom:20px;
+
+  padding:8px 16px;
+
+  border-radius:999px;
+
+  background:#f3ede2;
+
+  color:#9d7a33;
+
+  font-size:.85rem;
+
+  font-weight:600;
+}
+
+
+/* =========================
+CARD FOOTER
+========================= */
+
+.card-footer{
+
+  margin-top:30px;
+
+  display:flex;
+
+  justify-content:space-between;
+
+  align-items:center;
+}
+
+
+/* =========================
+CARD ARROW
+========================= */
+
+.card-arrow{
+
+  font-size:1.2rem;
+
+  color:#9d7a33;
+
+  transition:.3s ease;
+}
+
+.card:hover .card-arrow{
+
+  transform:translateX(6px);
+}
+
+
+/* =========================
+CARD GRID
+(OPTIONAL SYSTEM)
+========================= */
+
+.cards-grid{
+
+  display:grid;
+
+  grid-template-columns:
+  repeat(auto-fit,minmax(320px,1fr));
+
+  gap:34px;
+}
+
+
+/* =========================
+SMALL CARD
+========================= */
+
+.card-sm{
+
+  padding:28px;
+}
+
+
+/* =========================
+LARGE CARD
+========================= */
+
+.card-lg{
+
+  padding:58px;
+}
+
+
+/* =========================
+DARK CARD
+========================= */
+
+.card-dark{
+
+  background:#111111;
+
+  border-color:#2b2418;
+}
+
+.card-dark .card-title{
+
+  color:#f7f2e8;
+}
+
+.card-dark .card-text{
+
+  color:#d8d1c5;
+}
+```
 

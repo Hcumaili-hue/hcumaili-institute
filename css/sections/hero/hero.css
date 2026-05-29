@@ -12,6 +12,7 @@ HERO SECTION
 
 }
 
+
 /* =========================
 HERO BANNER
 ========================= */
@@ -20,12 +21,12 @@ HERO BANNER
 
   width:100%;
 
-  max-width:1400px;
+  max-width:880px;
 
   margin:0 auto;
 
   padding:
-  1rem 5rem
+  1rem 2rem
   2rem;
 }
 
@@ -45,6 +46,8 @@ HERO BANNER
   box-shadow:
   0 18px 40px rgba(0,0,0,.08);
 }
+
+
 /* =========================
 HERO LOGO WRAPPER
 ========================= */

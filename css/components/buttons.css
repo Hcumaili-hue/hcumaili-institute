@@ -35,11 +35,15 @@ BASE BUTTON
   border-color .3s ease,
   box-shadow .3s ease;
 
+  font-family:inherit;
+
   font-size:1rem;
 
   font-weight:600;
 
   line-height:1;
+
+  white-space:nowrap;
 }
 
 
@@ -50,6 +54,28 @@ HOVER
 .btn:hover{
 
   transform:translateY(-4px);
+}
+
+
+/* =========================
+ACTIVE
+========================= */
+
+.btn:active{
+
+  transform:translateY(-1px);
+}
+
+
+/* =========================
+FOCUS
+========================= */
+
+.btn:focus-visible{
+
+  outline:2px solid #9d7a33;
+
+  outline-offset:4px;
 }
 
 

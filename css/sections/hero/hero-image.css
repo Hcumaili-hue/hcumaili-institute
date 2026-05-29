@@ -1,4 +1,60 @@
 /* =========================
+HERO SECTION
+========================= */
+
+.hero-section{
+
+  position:relative;
+
+  overflow:hidden;
+
+  min-height:100vh;
+
+  background:#f3ede2;
+
+}
+
+
+/* =========================
+HERO BANNER
+========================= */
+
+.hero-section::before{
+
+  content:"";
+
+  position:absolute;
+
+  top:2rem;
+
+  left:50%;
+
+  transform:translateX(-50%);
+
+  width:min(92%, 1380px);
+
+  height:540px;
+
+  background-image:
+  url('assets/images/banner-h.png');
+
+  background-repeat:no-repeat;
+
+  background-position:center;
+
+  background-size:cover;
+
+  border-radius:36px;
+
+  box-shadow:
+  0 28px 70px rgba(0,0,0,.10);
+
+  border:
+  1px solid rgba(157,122,51,.12);
+
+  z-index:0;
+}
+/* =========================
 HERO LOGO WRAPPER
 ========================= */
 

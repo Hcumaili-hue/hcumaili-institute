@@ -1,7 +1,6 @@
-```css id="spbx10"
+```css
 /* =========================
 BUTTON SYSTEM
-H. CUMAILI LAB
 ========================= */
 
 
@@ -21,9 +20,9 @@ BASE BUTTON
 
   padding:18px 34px;
 
-  border:none;
-
   border-radius:999px;
+
+  border:none;
 
   text-decoration:none;
 
@@ -50,12 +49,12 @@ HOVER
 
 .btn:hover{
 
-  transform:translateY(-3px);
+  transform:translateY(-4px);
 }
 
 
 /* =========================
-PRIMARY BUTTON
+PRIMARY
 ========================= */
 
 .btn-primary{
@@ -68,12 +67,12 @@ PRIMARY BUTTON
 .btn-primary:hover{
 
   box-shadow:
-  0 14px 34px rgba(0,0,0,.15);
+  0 14px 34px rgba(0,0,0,.14);
 }
 
 
 /* =========================
-SECONDARY BUTTON
+SECONDARY
 ========================= */
 
 .btn-secondary{
@@ -90,14 +89,14 @@ SECONDARY BUTTON
 
 
 /* =========================
-OUTLINE BUTTON
+OUTLINE
 ========================= */
 
 .btn-outline{
 
   background:transparent;
 
-  border:1px solid #c9b892;
+  border:1px solid #cdbb96;
 
   color:#9d7a33;
 }
@@ -109,70 +108,30 @@ OUTLINE BUTTON
 
 
 /* =========================
-GHOST BUTTON
-========================= */
-
-.btn-ghost{
-
-  background:transparent;
-
-  color:#111111;
-}
-
-.btn-ghost:hover{
-
-  background:#f7f2e8;
-}
-
-
-/* =========================
-DARK BUTTON
-========================= */
-
-.btn-dark{
-
-  background:#111111;
-
-  color:#ffffff;
-}
-
-
-/* =========================
 BUTTON SIZES
 ========================= */
 
 .btn-sm{
 
-  padding:14px 24px;
+  padding:14px 26px;
 
-  font-size:.9rem;
+  font-size:.92rem;
 }
 
 .btn-lg{
 
   padding:22px 42px;
 
-  font-size:1.1rem;
+  font-size:1.08rem;
 }
 
 
 /* =========================
-FULL WIDTH BUTTON
+FULL WIDTH
 ========================= */
 
 .btn-block{
 
   width:100%;
 }
-
-
-/* =========================
-ICON
-========================= */
-
-.btn-icon{
-
-  font-size:1rem;
-}
 ```
-

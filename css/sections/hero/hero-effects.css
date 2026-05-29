@@ -10,7 +10,6 @@ HERO SECTION
 
   background:#f3ede2;
 
-  min-height:105vh;
 }
 
 
@@ -25,16 +24,16 @@ BACKGROUND LOGO
   inset:0;
 
   background-image:
-    url('../../../assets/logo/logo.png.jpg');
+    url('assets/logo/logo.png.jpg');
 
   background-repeat:no-repeat;
 
   background-position:
-    center 4rem;
+    center 8rem;
 
-  background-size:760px;
+  background-size:620px;
 
-  opacity:.085;
+  opacity:.03;
 
   pointer-events:none;
 

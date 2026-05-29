@@ -160,3 +160,21 @@ FULL WIDTH
 
   width:100%;
 }
+/* =========================
+HERO BUTTONS
+========================= */
+
+.hero-buttons{
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  gap:18px;
+
+  flex-wrap:wrap;
+
+  margin-top:2rem;
+}

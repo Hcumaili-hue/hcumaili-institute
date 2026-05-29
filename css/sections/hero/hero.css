@@ -87,3 +87,69 @@ HERO LOGO IMAGE
     rgba(157,122,51,.12)
   );
 }
+/* =========================
+PROJECT LABEL
+========================= */
+
+.hero-project-label{
+
+  margin-bottom:1.4rem;
+
+  color:#9d7a33;
+
+  font-size:.88rem;
+
+  font-weight:700;
+
+  letter-spacing:4px;
+
+  text-transform:uppercase;
+
+  line-height:1.9;
+
+  opacity:.92;
+}
+
+
+/* =========================
+PROJECT TEXT
+========================= */
+
+.hero-project-text{
+
+  max-width:720px;
+
+  margin:0 auto;
+
+  color:#4f4b45;
+
+  font-size:1.12rem;
+
+  line-height:2;
+
+  font-weight:400;
+
+  opacity:.92;
+
+  text-wrap:balance;
+}
+
+
+/* =========================
+PROJECT MOTTO
+========================= */
+
+.hero-project-motto{
+
+  margin-top:1.8rem;
+
+  color:#9d7a33;
+
+  font-size:1.05rem;
+
+  font-style:italic;
+
+  letter-spacing:2px;
+
+  opacity:.88;
+}

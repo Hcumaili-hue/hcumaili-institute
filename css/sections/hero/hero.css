@@ -86,6 +86,7 @@ HERO MOTTO BOTTOM
 
   opacity:.88;
 }
+
 /* =========================
 HERO BANNER
 ========================= */
@@ -94,12 +95,13 @@ HERO BANNER
 
   width:100%;
 
-  max-width:1240px;
+  max-width:1380px;
 
   margin:0 auto;
 
   padding:
-  2rem 2rem 0;
+  2rem 3rem
+  0;
 
 }
 
@@ -109,11 +111,14 @@ HERO BANNER
 
   display:block;
 
-  border-radius:32px;
+  border-radius:34px;
 
   object-fit:cover;
 
+  border:
+  1px solid rgba(157,122,51,.14);
+
   box-shadow:
-  0 20px 60px rgba(0,0,0,.08);
+  0 28px 70px rgba(0,0,0,.10);
 
 }

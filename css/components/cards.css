@@ -1,4 +1,4 @@
-```css
+
 /* =========================
 CURRENT RESEARCH
 CARD SYSTEM
@@ -21,7 +21,11 @@ CARD
 
 .current-research-card{
 
-  display:block;
+  display:flex;
+
+  flex-direction:column;
+
+  height:100%;
 
   background:#f8f4ec;
 
@@ -31,20 +35,34 @@ CARD
 
   padding:3rem;
 
+  overflow:hidden;
+
   text-decoration:none;
 
   color:inherit;
 
+  box-shadow:
+  0 4px 18px rgba(0,0,0,.03);
+
   transition:
   transform .35s ease,
-  border-color .35s ease;
+  border-color .35s ease,
+  box-shadow .35s ease;
 }
+
+
+/* =========================
+HOVER
+========================= */
 
 .current-research-card:hover{
 
   transform:translateY(-6px);
 
   border-color:#9d7a33;
+
+  box-shadow:
+  0 16px 34px rgba(0,0,0,.06);
 }
 
 
@@ -94,4 +112,3 @@ TEXT
 
   line-height:2;
 }
-```

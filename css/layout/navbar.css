@@ -12,6 +12,8 @@ SITE HEADER
 
   width:100%;
 
+  position:relative;
+
   background:
   rgba(243,237,226,.88);
 
@@ -35,7 +37,9 @@ NAVBAR CONTAINER
 
   justify-content:space-between;
 
-  gap:2rem;
+  gap:1.2rem;
+
+  width:100%;
 
   max-width:1400px;
 
@@ -44,63 +48,36 @@ NAVBAR CONTAINER
   padding:
     1.2rem
     2rem;
+
+  box-sizing:border-box;
 }
 
 
 /* =========================
-SITE LOGO
+MAIN NAVIGATION
 ========================= */
 
-.site-logo{
+.main-nav{
 
   display:flex;
 
   align-items:center;
 
-  gap:.9rem;
+  justify-content:center;
 
-  flex-shrink:0;
-
-  color:#111111;
-
-  text-decoration:none;
-
-  font-size:1.15rem;
-
-  font-weight:700;
-
-  letter-spacing:.4px;
-}
-/* =========================
-NAVBAR LOGO IMAGE
-========================= */
-
-.site-logo img{
-
-  width:44px;
-
-  height:auto;
-
-  display:block;
-
-  flex-shrink:0;
-}
-/* =========================
-COMPONENT HOSTING
-========================= */
-
-.main-nav{
+  gap:2rem;
 
   flex:1;
+
+  min-width:0;
 }
 
 
-.navbar-search{
+/* =========================
+SEARCH + MENU
+========================= */
 
-  flex-shrink:0;
-}
-
-
+.navbar-search,
 .menu-toggle{
 
   flex-shrink:0;

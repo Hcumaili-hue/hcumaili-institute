@@ -10,9 +10,11 @@ SEARCH PANEL
 
   gap:.8rem;
 
-  width:260px;
+  width:100%;
 
-  min-width:260px;
+  max-width:260px;
+
+  min-width:0;
 
   padding:.78rem 1.15rem;
 
@@ -35,9 +37,8 @@ SEARCH PANEL
   box-shadow .28s ease,
   transform .28s ease;
 
-  flex-shrink:0;
+  flex-shrink:1;
 }
-
 
 /* =========================
 HOVER
@@ -226,9 +227,7 @@ RESPONSIVE
 
   .navbar-search{
 
-    width:220px;
-
-    min-width:220px;
+    max-width:220px;
   }
 
 }

@@ -237,3 +237,122 @@ CONTACT CTA
 }
 
 }
+/* =========================
+NEW HEADER MOBILE FIX
+========================= */
+
+.site-header{
+
+  width:100%;
+
+  overflow:hidden;
+}
+
+
+.navbar-container{
+
+  width:100%;
+
+  max-width:100%;
+
+  padding:
+  1rem
+  1rem;
+
+  gap:.8rem;
+
+  box-sizing:border-box;
+
+  overflow:hidden;
+}
+
+
+.site-logo{
+
+  min-width:0;
+
+  font-size:1rem;
+}
+
+
+.site-logo img{
+
+  width:38px;
+}
+
+
+.main-nav{
+
+  flex:0;
+}
+
+
+.navbar-search{
+
+  flex:0;
+
+  max-width:44px;
+
+  overflow:hidden;
+}
+
+
+.menu-toggle{
+
+  flex-shrink:0;
+}
+
+
+/* =========================
+HERO FIX
+========================= */
+
+.hero-section{
+
+  overflow-x:hidden;
+}
+
+
+.hero-banner{
+
+  width:100%;
+
+  max-width:100%;
+
+  padding:
+  1rem
+  .8rem;
+
+  box-sizing:border-box;
+}
+
+
+.hero-banner img{
+
+  width:100%;
+
+  max-width:100%;
+
+  height:auto;
+}
+
+
+.hero-content{
+
+  width:100%;
+
+  max-width:100%;
+
+  padding:
+  2rem
+  1rem
+  4rem;
+
+  box-sizing:border-box;
+}
+
+
+body{
+
+  overflow-x:hidden;
+}

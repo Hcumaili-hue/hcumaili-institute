@@ -26,5 +26,20 @@ SIDEBAR
   padding:
   100px 28px 40px;
 
+  transform:
+  translateX(100%);
+
+  transition:
+  transform .35s ease;
+
   z-index:2000;
+}
+
+
+/* ACTIVE */
+
+.side-menu.active{
+
+  transform:
+  translateX(0);
 }

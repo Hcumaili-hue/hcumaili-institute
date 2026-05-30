@@ -32,7 +32,7 @@ HERO BANNER
 
   width:100%;
 
-  max-width:700px;
+  max-width:500px;
 
   height:auto;
 
@@ -73,7 +73,7 @@ HERO LOGO IMAGE
 
   width:220px;
 
-  max-width:70%;
+  max-width:50%;
 
   height:auto;
 
@@ -99,7 +99,7 @@ PROJECT LABEL
 
   font-size:.88rem;
 
-  font-weight:700;
+  font-weight:50;
 
   letter-spacing:4px;
 

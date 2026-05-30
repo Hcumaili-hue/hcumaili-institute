@@ -113,3 +113,68 @@
 
   line-height:2;
 }
+
+/* =========================
+INNER LIBRARY CARD
+========================= */
+
+.library-card-inner{
+
+  background:#171411;
+
+  border:1px solid rgba(157,122,51,.22);
+
+  border-radius:34px;
+
+  padding:3rem;
+
+  text-decoration:none;
+
+  color:inherit;
+
+  transition:.35s ease;
+}
+
+
+.library-card-inner:hover{
+
+  transform:translateY(-6px);
+
+  border-color:#9d7a33;
+
+  box-shadow:
+  0 18px 40px rgba(0,0,0,.18);
+}
+
+
+/* NUMBER */
+
+.library-card-inner
+.library-number{
+
+  color:#caa25b;
+}
+
+
+/* TITLE */
+
+.library-card-inner h2{
+
+  margin-bottom:1.5rem;
+
+  color:#d8bc7d;
+
+  font-size:2rem;
+
+  line-height:1.2;
+}
+
+
+/* TEXT */
+
+.library-card-inner p{
+
+  color:#d5cdc1;
+
+  line-height:2;
+}

@@ -1,84 +1,46 @@
 /* =========================
-DESKTOP
-DEFAULT
+DESKTOP HEADER RESET
 ========================= */
 
 @media(min-width:1200px){
 
-/* CONTAINER */
+  .main-nav{
 
-.container{
+    display:block;
 
-  width:min(1400px,92%);
-}
-
-
-/* HERO */
-
-.hero-layout{
-
-  display:grid;
-
-  grid-template-columns:
-  1.1fr .9fr;
-
-  align-items:center;
-
-  gap:90px;
-}
-
-.hero-text-section h1{
-
-  font-size:96px;
-}
-
-.hero-text{
-
-  font-size:24px;
-}
+    flex:1;
+  }
 
 
-/* MISSION */
+  .navbar-search{
 
-.mission-layout{
+    flex-shrink:0;
 
-  display:grid;
+    max-width:none;
 
-  grid-template-columns:
-  1fr 1fr;
-
-  gap:90px;
-}
+    overflow:visible;
+  }
 
 
-/* RESEARCHER */
+  .menu-toggle{
 
-.researcher-layout{
-
-  display:grid;
-
-  grid-template-columns:
-  .9fr 1.1fr;
-
-  gap:90px;
-}
+    display:flex;
+  }
 
 
-/* RESEARCH AREAS */
+  .navbar-container{
 
-.research-areas-grid{
+    max-width:1400px;
 
-  grid-template-columns:
-  repeat(3,1fr);
-}
+    width:100%;
 
+    margin:0 auto;
 
-/* CURRENT RESEARCH */
+    padding:1.2rem 2rem;
 
-.current-research-grid{
+    overflow:visible;
 
-  grid-template-columns:
-  repeat(3,1fr);
-}
+    gap:2rem;
+  }
 
 }

@@ -49,9 +49,9 @@ const searchableItems = [
 
   {
     title:'Libraries',
-    element:
-    document.querySelector(
-      '#libraries'
+  element:
+  document.querySelector(
+    '#central-library'
     )
   },
 

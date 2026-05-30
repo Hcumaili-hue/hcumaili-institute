@@ -10,6 +10,9 @@ HERO SECTION
   3rem 0
   5rem;
 
+  width:100%;
+
+  overflow-x:hidden;
 }
 
 
@@ -19,20 +22,24 @@ HERO BANNER
 
 .hero-banner{
 
-  width:700px;
+  width:100%;
+
+  max-width:700px;
 
   margin:0 auto;
 
   padding:
-  2rem 4rem
+  2rem 1rem
   2rem;
+
+  box-sizing:border-box;
 }
 
 .hero-banner img{
 
-  width:700px;
+  width:100%;
 
-  max-width:700px;
+  max-width:100%;
 
   height:auto;
 
@@ -49,107 +56,17 @@ HERO BANNER
   0 18px 40px rgba(0,0,0,.08);
 }
 
-/* =========================
-HERO LOGO WRAPPER
-========================= */
-
-.hero-logo{
-
-  display:flex;
-
-  justify-content:center;
-
-  align-items:center;
-
-  margin-bottom:2rem;
-}
-
 
 /* =========================
-HERO LOGO IMAGE
+MOBILE FIX
 ========================= */
 
-.hero-logo img{
+@media(max-width:768px){
 
-  width:220px;
+  .hero-banner{
 
-  max-width:50%;
+    padding:
+    1.2rem .9rem;
+  }
 
-  height:auto;
-
-  display:block;
-
-  opacity:.98;
-
-  filter:
-  drop-shadow(
-    0 10px 24px
-    rgba(157,122,51,.12)
-  );
-}
-/* =========================
-PROJECT LABEL
-========================= */
-
-.hero-project-label{
-
-  margin-bottom:1.4rem;
-
-  color:#9d7a33;
-
-  font-size:.88rem;
-
-  font-weight:50;
-
-  letter-spacing:4px;
-
-  text-transform:uppercase;
-
-  line-height:1.9;
-
-  opacity:.92;
-}
-
-
-/* =========================
-PROJECT TEXT
-========================= */
-
-.hero-project-text{
-
-  max-width:720px;
-
-  margin:0 auto;
-
-  color:#4f4b45;
-
-  font-size:1.12rem;
-
-  line-height:2;
-
-  font-weight:400;
-
-  opacity:.92;
-
-  text-wrap:balance;
-}
-
-
-/* =========================
-PROJECT MOTTO
-========================= */
-
-.hero-project-motto{
-
-  margin-top:1.8rem;
-
-  color:#9d7a33;
-
-  font-size:1.05rem;
-
-  font-style:italic;
-
-  letter-spacing:2px;
-
-  opacity:.88;
 }

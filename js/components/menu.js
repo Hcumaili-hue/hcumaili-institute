@@ -3,21 +3,21 @@ document.querySelector(
   '.menu-toggle'
 );
 
-const menuPanel =
+const sideMenu =
 document.querySelector(
-  '.menu-panel'
+  '.side-menu'
 );
 
 if(
   menuToggle &&
-  menuPanel
+  sideMenu
 ){
 
   menuToggle.addEventListener(
     'click',
     () => {
 
-      menuPanel.classList.toggle(
+      sideMenu.classList.toggle(
         'active'
       );
 

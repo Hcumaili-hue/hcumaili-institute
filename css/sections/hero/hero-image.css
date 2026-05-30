@@ -26,13 +26,13 @@ HERO BANNER
 
   top:2rem;
 
-  left:50%;
+  left:30%;
 
   transform:translateX(-50%);
 
-  width:min(88%, 700px);
+  width:min(88%, 900px);
 
-  height:420px;
+  height:380px;
 
   background-image:
   url('assets/images/banner-h.png');

@@ -121,6 +121,12 @@ SEARCH INPUT
 SEARCH RESULTS
 ========================= */
 
+.navbar-search{
+
+  position:relative;
+}
+
+
 .search-results{
 
   position:absolute;
@@ -158,7 +164,6 @@ SEARCH RESULTS
 
   overflow-y:auto;
 }
-
 
 /* =========================
 SHOW RESULTS

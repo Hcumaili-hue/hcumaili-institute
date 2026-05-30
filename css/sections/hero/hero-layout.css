@@ -14,13 +14,15 @@ HERO CONTENT
 
   text-align:center;
 
+  width:100%;
+
   max-width:900px;
 
   margin:0 auto;
 
   padding:
-  3rem 2rem
+  3rem 1.2rem
   5rem;
 
+  box-sizing:border-box;
 }
-

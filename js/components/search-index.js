@@ -80,8 +80,7 @@ const searchIndex = [
    url:
 'pages/jewish-library/index.html'
   }
-
-];
+},
 /* =========================
 RESEARCHER
 ========================= */
@@ -237,3 +236,4 @@ COMPARATIVE LIBRARY
   url:
   'pages/comparative-library/index.html'
 }
+];

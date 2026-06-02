@@ -79,7 +79,7 @@ const searchIndex = [
 
    url:
 'pages/jewish-library/index.html'
-  }
+    },
 /* =========================
 RESEARCHER
 ========================= */

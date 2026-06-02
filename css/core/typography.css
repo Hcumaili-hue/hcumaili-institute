@@ -27,7 +27,7 @@ body{
   var(--text-dark);
 
   background:
-  var(--cream);
+  var(--dark-cream);
 
   text-rendering:
   optimizeLegibility;

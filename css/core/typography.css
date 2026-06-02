@@ -1,4 +1,4 @@
-
+```css
 /* =========================================
    H. Cumaili Lab Typography System
    Refined Academic Edition
@@ -15,9 +15,9 @@ body{
   'EB Garamond',
   serif;
 
-  font-size:1.65rem;
+  font-size:1rem;
 
-  line-height:1.75;
+  line-height:1.7;
 
   font-weight:400;
 
@@ -69,37 +69,37 @@ HEADING SCALE
 
 h1{
 
-  font-size:4.4rem;
+  font-size:3.2rem;
 }
 
 
 h2{
 
-  font-size:3.6rem;
+  font-size:2.5rem;
 }
 
 
 h3{
 
-  font-size:2.8rem;
+  font-size:2rem;
 }
 
 
 h4{
 
-  font-size:2.3rem;
+  font-size:1.6rem;
 }
 
 
 h5{
 
-  font-size:2rem;
+  font-size:1.35rem;
 }
 
 
 h6{
 
-  font-size:1.8rem;
+  font-size:1.15rem;
 }
 
 
@@ -109,9 +109,9 @@ PARAGRAPHS
 
 p{
 
-  font-size:1.75rem;
+  font-size:1.08rem;
 
-  line-height:1.85;
+  line-height:1.8;
 
   color:
   var(--text-soft);
@@ -126,7 +126,7 @@ OPENING TEXT / LEAD
 
 .lead-text{
 
-  font-size:2rem;
+  font-size:1.3rem;
 
   line-height:1.8;
 
@@ -145,7 +145,7 @@ ACADEMIC QUOTES
 
 blockquote{
 
-  font-size:1.9rem;
+  font-size:1.1rem;
 
   line-height:1.9;
 
@@ -187,3 +187,4 @@ TEXT UTILITIES
   color:
   var(--text-soft);
 }
+```

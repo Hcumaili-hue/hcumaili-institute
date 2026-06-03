@@ -8,133 +8,78 @@ document.querySelector(
   '.search-results'
 );
 
+if(
+  searchInput &&
+  searchResults
+){
 
-/* =========================
-SEARCHABLE SECTIONS
-========================= */
+  searchInput.addEventListener(
+    'input',
+    () => {
 
-const searchableItems = [
+      const query =
+      searchInput.value
+      .toLowerCase()
+      .trim();
 
-  {
-    title:'Mission',
-    element:
-    document.querySelector(
-      '#mission'
-    )
-  },
+      searchResults.innerHTML = '';
 
-  {
-    title:'Researcher',
-    element:
-    document.querySelector(
-      '#researcher'
-    )
-  },
+      if(!query){
 
-  {
-    title:'Methodology',
-    element:
-    document.querySelector(
-      '#methodology'
-    )
-  },
+        return;
+      }
 
-  {
-    title:'Publications',
-    element:
-    document.querySelector(
-      '#publication'
-    )
-  },
+      const results =
+      searchIndex.filter(
+        item =>
+          item.title
+          .toLowerCase()
+          .includes(query)
 
-  {
-    title:'Libraries',
-  element:
-  document.querySelector(
-    '#central-library'
-    )
-  },
+          ||
 
-  {
-    title:'Research',
-    element:
-    document.querySelector(
-      '#current-research'
-    )
-  }
+          item.keywords.some(
+            keyword =>
+            keyword
+            .toLowerCase()
+            .includes(query)
+          )
+      );
 
-];
+      results.forEach(
+        item => {
 
-
-/* =========================
-LIVE SEARCH
-========================= */
-
-searchInput.addEventListener(
-  'input',
-  () => {
-
-    const query =
-    searchInput.value
-    .toLowerCase()
-    .trim();
-
-    searchResults.innerHTML =
-    '';
-
-    if(!query){
-
-      return;
-    }
-
-    searchableItems.forEach(
-      item => {
-
-        const text =
-        item.element
-        ?.innerText
-        .toLowerCase();
-
-        if(
-          text &&
-          text.includes(query)
-        ){
-
-          const button =
+          const link =
           document.createElement(
-            'button'
+            'a'
           );
 
-          button.className =
+          link.className =
           'search-result-item';
 
-          button.textContent =
-          item.title;
+          link.href =
+          item.url;
 
-          button.addEventListener(
-            'click',
-            () => {
+          link.innerHTML =
 
-              item.element
-              .scrollIntoView({
+          `
+          <strong>
+            ${item.title}
+          </strong>
 
-                behavior:
-                'smooth'
+          <small>
+            ${item.category}
+          </small>
+          `;
 
-              });
-
-            }
-          );
-
-          searchResults
-          .appendChild(
-            button
+          searchResults.appendChild(
+            link
           );
 
         }
+      );
 
-      }
-    );
+    }
+  );
 
-  }
-);
+}

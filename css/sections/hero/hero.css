@@ -1,114 +1,4 @@
 /* =========================
-HERO MOTTO
-========================= */
-
-.hero-motto{
-
-  margin:0;
-
-  color:#c8a96b;
-
-  font-size:.85rem;
-
-  letter-spacing:2px;
-
-  text-transform:uppercase;
-}
-
-
-/* =========================
-HERO TITLE
-========================= */
-
-.hero-title{
-
-  margin:0;
-
-  color:#111111;
-
-  font-size:4.5rem;
-
-  font-weight:700;
-
-  line-height:1.1;
-}
-
-
-/* =========================
-HERO SUBTITLE
-========================= */
-
-.hero-subtitle{
-
-  margin:0;
-
-  color:#3b3428;
-
-  font-size:1.35rem;
-
-  line-height:1.7;
-}
-
-
-/* =========================
-HERO DESCRIPTION
-========================= */
-
-.hero-description{
-
-  margin:0;
-
-  max-width:760px;
-
-  color:#5a5144;
-
-  font-size:1.08rem;
-
-  line-height:1.9;
-}
-
-
-/* =========================
-HERO CLOSING
-========================= */
-
-.hero-closing{
-
-  margin:0;
-
-  color:#9d7a33;
-
-  font-style:italic;
-}
-
-
-/* =========================
-HERO STATS
-========================= */
-
-.hero-stats span{
-
-  color:#7a6130;
-
-  font-size:.88rem;
-}
-
-
-/* =========================
-HERO HIGHLIGHTS
-========================= */
-
-.hero-highlights span{
-
-  color:#111111;
-
-  font-size:.9rem;
-
-  font-weight:500;
-}
-
-
-/* =========================
 FEATURED PROJECT
 ========================= */
 
@@ -122,8 +12,6 @@ FEATURED PROJECT
 
   padding:120px 7%;
 
-  text-align:center;
-
   border-top:
   1px solid rgba(200,169,107,.08);
 
@@ -133,7 +21,7 @@ FEATURED PROJECT
 
 
 /* =========================
-FEATURED PROJECT BANNER
+BANNER BACKGROUND
 ========================= */
 
 .featured-project::before{
@@ -151,7 +39,7 @@ FEATURED PROJECT BANNER
 
   background-position:center;
 
-  background-size:40% auto;
+  background-size:55% auto;
 
   opacity:.05;
 
@@ -160,26 +48,32 @@ FEATURED PROJECT BANNER
 
 
 /* =========================
-FEATURED PROJECT CONTENT
+CONTENT
 ========================= */
 
-.featured-project > *{
+.featured-content{
 
   position:relative;
 
   z-index:2;
+
+  max-width:900px;
+
+  margin:0 auto;
+
+  text-align:center;
 }
 
 
 /* =========================
-FEATURED PROJECT LABEL
+LABEL
 ========================= */
 
 .section-label{
 
   display:block;
 
-  margin-bottom:18px;
+  margin-bottom:20px;
 
   color:#c8a96b;
 
@@ -192,10 +86,10 @@ FEATURED PROJECT LABEL
 
 
 /* =========================
-FEATURED PROJECT TITLE
+TITLE
 ========================= */
 
-.featured-project h2{
+.featured-title{
 
   margin:0 0 24px;
 
@@ -204,22 +98,69 @@ FEATURED PROJECT TITLE
   font-size:3rem;
 
   line-height:1.2;
+
+  font-weight:700;
 }
 
 
 /* =========================
-FEATURED PROJECT DESCRIPTION
+DESCRIPTION
 ========================= */
 
-.featured-project p{
-
-  max-width:850px;
+.featured-description{
 
   margin:0 auto;
 
+  max-width:760px;
+
   color:#5a5144;
 
-  font-size:1.05rem;
+  font-size:1.08rem;
 
   line-height:1.9;
+}
+
+
+/* =========================
+TABLET
+========================= */
+
+@media(max-width:900px){
+
+  .featured-title{
+
+    font-size:2.3rem;
+  }
+
+  .featured-project::before{
+
+    background-size:80% auto;
+  }
+
+}
+
+
+/* =========================
+MOBILE
+========================= */
+
+@media(max-width:600px){
+
+  .featured-project{
+
+    padding:90px 5%;
+  }
+
+  .featured-title{
+
+    font-size:1.9rem;
+  }
+
+  .featured-project::before{
+
+    background-size:95% auto;
+
+    opacity:.04;
+  }
+
 }

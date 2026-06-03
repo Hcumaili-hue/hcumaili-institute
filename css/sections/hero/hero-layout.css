@@ -1,5 +1,43 @@
 /* =========================
-HERO CONTENT
+HERO SECTION
+========================= */
+
+.hero-section{
+
+  max-width:1400px;
+
+  margin:0 auto;
+
+  padding:120px 7%;
+
+  display:grid;
+
+  grid-template-columns:
+  420px
+  1fr;
+
+  align-items:center;
+
+  gap:80px;
+}
+
+
+/* =========================
+LOGO
+========================= */
+
+.hero-logo{
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+}
+
+
+/* =========================
+CONTENT
 ========================= */
 
 .hero-content{
@@ -8,21 +46,33 @@ HERO CONTENT
 
   flex-direction:column;
 
-  align-items:center;
+  gap:24px;
+}
 
-  justify-content:center;
 
-  text-align:center;
+/* =========================
+STATS
+========================= */
 
-  width:100%;
+.hero-stats{
 
-  max-width:900px;
+  display:flex;
 
-  margin:0 auto;
+  flex-wrap:wrap;
 
-  padding:
-  3rem 1.2rem
-  5rem;
+  gap:12px;
+}
 
-  box-sizing:border-box;
+
+/* =========================
+HIGHLIGHTS
+========================= */
+
+.hero-highlights{
+
+  display:flex;
+
+  flex-wrap:wrap;
+
+  gap:12px;
 }

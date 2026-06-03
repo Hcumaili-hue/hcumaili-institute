@@ -275,17 +275,16 @@ TABLET
 
 .main-nav{
 
-```
+
 gap:18px;
-```
+
 
 }
 
 .main-nav a{
 
-```
+
 font-size:.85rem;
-```
 
 }
 
@@ -299,17 +298,16 @@ MOBILE
 
 .main-nav{
 
-```
+
 display:none;
-```
+
 
 }
 
 .navbar-search{
 
-```
 width:240px;
-```
+
 
 }
 

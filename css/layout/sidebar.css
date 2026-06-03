@@ -44,15 +44,25 @@ MAIN LINKS
 
 .side-menu > a{
 
-  display:block;
+  display:flex;
 
-  padding:16px 0;
+  align-items:center;
 
-  font-size:18px;
+  gap:12px;
+
+  padding:16px 18px;
+
+  border-radius:16px;
+
+  font-size:17px;
+
+  font-weight:600;
 
   text-decoration:none;
 
   color:#111111;
+
+  transition:.25s ease;
 }
 
 

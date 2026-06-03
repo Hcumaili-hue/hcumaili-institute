@@ -158,16 +158,21 @@ RESPONSIVE CSS
 
 <body>
 <!-- =========================
-NAVBAR
+HEADER
 ========================= -->
 
 <header class="site-header">
 
-  <div class="navbar-container">
+  <!-- =========================
+  BRAND SECTION
+  ========================= -->
 
-    <!-- LOGO -->
+  <div class="header-brand">
 
-    <a href="#hero" class="site-logo">
+    <a
+      href="#hero"
+      class="site-logo"
+    >
 
       <img
         src="assets/logo/logo.png.jpg"
@@ -176,9 +181,9 @@ NAVBAR
 
       <div class="logo-text">
 
-        <h3>
+        <h2>
           H. CUMAILI INSTITUTE
-        </h3>
+        </h2>
 
         <span>
           Independent Abrahamic Research Institute
@@ -188,65 +193,82 @@ NAVBAR
 
     </a>
 
+  </div>
+
+  <!-- =========================
+  NAVIGATION SECTION
+  ========================= -->
+
+  <div class="navbar-container">
+
     <!-- NAVIGATION -->
 
     <nav class="main-nav">
 
-    <a href="#current-research">
-  <i class="fa-solid fa-microscope"></i>
-  Research
-</a>
+      <a href="#current-research">
+        Research
+      </a>
 
-<a href="#publication">
-  <i class="fa-solid fa-book-open"></i>
-  Publications
-</a>
+      <a href="#publication">
+        Publications
+      </a>
 
-<a href="#central-library">
-  <i class="fa-solid fa-building-columns"></i>
-  Collections
-</a>
+      <a href="#central-library">
+        Collections
+      </a>
 
-<a href="#research-programs">
-  <i class="fa-solid fa-diagram-project"></i>
-  Programs
-</a>
+      <a href="#mission">
+        Programs
+      </a>
 
-<a href="#institute">
-  <i class="fa-solid fa-landmark"></i>
-  Institute
-</a>
+      <a href="#researcher">
+        Institute
+      </a>
 
-    <!-- SEARCH -->
+    </nav>
 
-    <div class="navbar-search">
+    <!-- RIGHT SIDE -->
 
-      <span class="search-icon">
+    <div class="navbar-right">
 
-        <i class="fa-solid fa-magnifying-glass"></i>
+      <!-- SEARCH -->
 
-      </span>
+      <div class="navbar-search">
 
-      <input
-        type="text"
-        class="search-input"
-        placeholder="Search Research, Publications, and Collections..."
+        <span class="search-icon">
+
+          <i
+            class="fa-solid fa-magnifying-glass"
+          ></i>
+
+        </span>
+
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Search Research, Publications, and Collections..."
+        >
+
+        <div class="search-results">
+
+        </div>
+
+      </div>
+
+      <!-- MOBILE MENU -->
+
+      <button
+        class="menu-toggle"
+        aria-label="Menu"
       >
 
-      <div class="search-results"></div>
+        <i
+          class="fa-solid fa-bars"
+        ></i>
+
+      </button>
 
     </div>
-
-    <!-- MOBILE MENU -->
-
-    <button
-      class="menu-toggle"
-      aria-label="Menu"
-    >
-
-      <i class="fa-solid fa-bars"></i>
-
-    </button>
 
   </div>
 

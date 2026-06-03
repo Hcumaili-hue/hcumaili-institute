@@ -1,33 +1,34 @@
 /* =========================
-SITE HEADER
+NAVBAR
 ========================= */
 
 .site-header{
 
-  position:sticky;
+  position:fixed;
 
   top:0;
 
-  z-index:1000;
+  left:0;
 
   width:100%;
 
-  background:
-  rgba(243,237,226,.88);
+  z-index:1000;
 
-  backdrop-filter:
-  blur(18px);
+  background:rgba(17,17,17,.95);
 
-  border-bottom:
-  1px solid rgba(157,122,51,.08);
+  backdrop-filter:blur(14px);
+
+  border-bottom:1px solid rgba(201,167,92,.15);
 }
 
 
-/* =========================
-NAVBAR CONTAINER
-========================= */
-
 .navbar-container{
+
+  max-width:1600px;
+
+  margin:auto;
+
+  padding:18px 5%;
 
   display:flex;
 
@@ -35,20 +36,12 @@ NAVBAR CONTAINER
 
   justify-content:space-between;
 
-  gap:2rem;
-
-  max-width:1400px;
-
-  margin:0 auto;
-
-  padding:
-    1.2rem
-    2rem;
+  gap:40px;
 }
 
 
 /* =========================
-SITE LOGO
+LOGO
 ========================= */
 
 .site-logo{
@@ -57,158 +50,208 @@ SITE LOGO
 
   align-items:center;
 
-  gap:.9rem;
-
-  flex-shrink:0;
-
-  color:#111111;
+  gap:16px;
 
   text-decoration:none;
-
-  font-size:1.15rem;
-
-  font-weight:700;
-
-  letter-spacing:.4px;
 }
-/* =========================
-NAVBAR LOGO IMAGE
-========================= */
 
 .site-logo img{
 
-  width:44px;
+  width:58px;
 
-  height:auto;
+  height:58px;
 
-  display:block;
-
-  flex-shrink:0;
+  object-fit:contain;
 }
+
+.logo-text{
+
+  display:flex;
+
+  flex-direction:column;
+}
+
+.logo-text h3{
+
+  margin:0;
+
+  color:#f3ede2;
+
+  font-size:1rem;
+
+  font-weight:700;
+
+  letter-spacing:2px;
+
+  text-transform:uppercase;
+}
+
+.logo-text span{
+
+  color:#b89d63;
+
+  font-size:.75rem;
+
+  letter-spacing:1px;
+}
+
+
 /* =========================
-COMPONENT HOSTING
+NAV LINKS
 ========================= */
 
 .main-nav{
 
-  flex:1;
+  display:flex;
+
+  align-items:center;
+
+  gap:38px;
 }
 
+.main-nav a{
+
+  position:relative;
+
+  text-decoration:none;
+
+  color:#e8dfd0;
+
+  font-size:.92rem;
+
+  font-weight:500;
+
+  letter-spacing:1px;
+
+  text-transform:uppercase;
+
+  transition:.3s ease;
+}
+
+.main-nav a:hover{
+
+  color:#c9a75c;
+}
+
+.main-nav a::after{
+
+  content:"";
+
+  position:absolute;
+
+  left:0;
+
+  bottom:-8px;
+
+  width:0;
+
+  height:1px;
+
+  background:#c9a75c;
+
+  transition:.3s ease;
+}
+
+.main-nav a:hover::after{
+
+  width:100%;
+}
+
+
+/* =========================
+SEARCH
+========================= */
 
 .navbar-search{
 
-  flex-shrink:0;
+  position:relative;
+
+  width:320px;
 }
 
-
-.menu-toggle{
-
-  flex-shrink:0;
-}
-/* =========================
-SITE HEADER
-========================= */
-
-.site-header{
-
-  position:sticky;
-
-  top:0;
-
-  z-index:1000;
+.search-input{
 
   width:100%;
 
-  background:
-  rgba(243,237,226,.88);
+  padding:14px 18px 14px 48px;
 
-  backdrop-filter:
-  blur(18px);
+  background:#1b1b1b;
 
-  border-bottom:
-  1px solid rgba(157,122,51,.08);
+  border:1px solid rgba(201,167,92,.18);
+
+  border-radius:40px;
+
+  color:#f3ede2;
+
+  font-size:.9rem;
+
+  outline:none;
+
+  transition:.3s ease;
+}
+
+.search-input:focus{
+
+  border-color:#c9a75c;
+}
+
+.search-icon{
+
+  position:absolute;
+
+  left:18px;
+
+  top:50%;
+
+  transform:translateY(-50%);
+
+  color:#b89d63;
 }
 
 
 /* =========================
-NAVBAR CONTAINER
+MOBILE BUTTON
 ========================= */
-
-.navbar-container{
-
-  display:flex;
-
-  align-items:center;
-
-  justify-content:space-between;
-
-  gap:2rem;
-
-  max-width:1400px;
-
-  margin:0 auto;
-
-  padding:
-    1.2rem
-    2rem;
-}
-
-
-/* =========================
-SITE LOGO
-========================= */
-
-.site-logo{
-
-  display:flex;
-
-  align-items:center;
-
-  gap:.9rem;
-
-  flex-shrink:0;
-
-  color:#111111;
-
-  text-decoration:none;
-
-  font-size:1.15rem;
-
-  font-weight:700;
-
-  letter-spacing:.4px;
-}
-/* =========================
-NAVBAR LOGO IMAGE
-========================= */
-
-.site-logo img{
-
-  width:44px;
-
-  height:auto;
-
-  display:block;
-
-  flex-shrink:0;
-}
-/* =========================
-COMPONENT HOSTING
-========================= */
-
-.main-nav{
-
-  flex:1;
-}
-
-
-.navbar-search{
-
-  flex-shrink:0;
-}
-
 
 .menu-toggle{
 
-  flex-shrink:0;
+  display:none;
+
+  border:none;
+
+  background:none;
+
+  color:#f3ede2;
+
+  font-size:1.5rem;
+
+  cursor:pointer;
+}
+
+
+/* =========================
+RESPONSIVE
+========================= */
+
+@media(max-width:1200px){
+
+  .main-nav{
+
+    display:none;
+  }
+
+  .navbar-search{
+
+    display:none;
+  }
+
+  .menu-toggle{
+
+    display:block;
+  }
+
+  .logo-text span{
+
+    display:none;
+  }
 }

@@ -4,24 +4,23 @@ STATS
 
 .hero-stats span{
 
-  padding:10px 18px;
+padding:10px 18px;
 
-  border-radius:999px;
+border-radius:999px;
 
-  background:
-  rgba(200,169,107,.08);
+background:
+rgba(200,169,107,.08);
 
-  border:
-  1px solid
-  rgba(200,169,107,.18);
+border:
+1px solid
+rgba(200,169,107,.18);
 
-  color:#7a6130;
+color:#7a6130;
 
-  font-size:.88rem;
+font-size:.88rem;
 
-  font-weight:500;
+font-weight:500;
 }
-
 
 /* =========================
 HIGHLIGHTS
@@ -29,32 +28,35 @@ HIGHLIGHTS
 
 .hero-highlights span{
 
-  padding:12px 18px;
+padding:12px 18px;
 
-  border-radius:999px;
+border-radius:999px;
 
-  background:#f8f3eb;
+background:#f8f3eb;
 
-  border:
-  1px solid
-  rgba(200,169,107,.18);
+border:
+1px solid
+rgba(200,169,107,.18);
 
-  color:#111111;
+color:#111111;
 
-  font-size:.9rem;
+font-size:.9rem;
 
-  font-weight:500;
+font-weight:500;
 
-  transition:.3s ease;
+transition:
+transform .3s ease,
+background .3s ease,
+border-color .3s ease;
 }
-
 
 .hero-highlights span:hover{
 
-  transform:translateY(-3px);
+transform:
+translateY(-3px);
 
-  background:
-  rgba(200,169,107,.10);
+background:
+rgba(200,169,107,.10);
 
-  border-color:#c8a96b;
+border-color:#c8a96b;
 }

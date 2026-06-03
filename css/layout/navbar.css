@@ -4,22 +4,14 @@ HEADER
 
 .site-header{
 
-  position:sticky;
-
-  top:0;
-
-  z-index:1000;
-
   background:#f5efe5;
 
-  backdrop-filter:blur(12px);
-
-  border-bottom:1px solid rgba(157,122,51,.12);
+  border-bottom:1px solid rgba(157,122,51,.10);
 }
 
 
 /* =========================
-BRAND SECTION
+BRAND BAR
 ========================= */
 
 .header-brand{
@@ -28,17 +20,27 @@ BRAND SECTION
 
   margin:auto;
 
-  padding:28px 5% 22px;
+  padding:30px 5% 22px;
 
-  border-bottom:1px solid rgba(157,122,51,.08);
+  display:flex;
+
+  justify-content:space-between;
+
+  align-items:flex-start;
+
+  gap:40px;
 }
 
+
+/* =========================
+LOGO
+========================= */
 
 .site-logo{
 
   display:flex;
 
-  align-items:center;
+  align-items:flex-start;
 
   gap:18px;
 
@@ -70,30 +72,46 @@ BRAND SECTION
 
   color:#111111;
 
-  font-size:2.15rem;
+  font-size:2.35rem;
 
   font-weight:700;
 
-  letter-spacing:1px;
+  letter-spacing:.5px;
 }
 
 
 .logo-text span{
 
-  margin-top:6px;
+  margin-top:8px;
 
-  color:#7a6a54;
+  color:#8b7355;
 
   font-size:.82rem;
 
   text-transform:uppercase;
 
-  letter-spacing:2px;
+  letter-spacing:1.6px;
 }
 
 
 /* =========================
-NAVBAR
+RIGHT SIDE
+========================= */
+
+.navbar-right{
+
+  display:flex;
+
+  align-items:center;
+
+  gap:16px;
+
+  padding-top:10px;
+}
+
+
+/* =========================
+NAVIGATION BAR
 ========================= */
 
 .navbar-container{
@@ -104,19 +122,11 @@ NAVBAR
 
   padding:18px 5%;
 
-  display:flex;
+  border-top:1px solid rgba(157,122,51,.08);
 
-  align-items:center;
-
-  justify-content:space-between;
-
-  gap:40px;
+  border-bottom:1px solid rgba(157,122,51,.08);
 }
 
-
-/* =========================
-NAVIGATION
-========================= */
 
 .main-nav{
 
@@ -124,7 +134,9 @@ NAVIGATION
 
   align-items:center;
 
-  gap:52px;
+  gap:58px;
+
+  flex-wrap:wrap;
 }
 
 
@@ -136,13 +148,9 @@ NAVIGATION
 
   color:#111111;
 
-  font-size:.95rem;
+  font-size:1rem;
 
   font-weight:600;
-
-  letter-spacing:1px;
-
-  text-transform:uppercase;
 
   transition:.3s ease;
 }
@@ -177,18 +185,4 @@ NAVIGATION
 .main-nav a:hover::after{
 
   width:100%;
-}
-
-
-/* =========================
-RIGHT SIDE
-========================= */
-
-.navbar-right{
-
-  display:flex;
-
-  align-items:center;
-
-  gap:14px;
 }

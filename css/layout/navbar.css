@@ -166,7 +166,9 @@ transition:.3s ease;
 
 width:100%;
 }
-
+.site-header .main-nav a{
+  color:#f5efe5 !important;
+}
 /* =========================
 RIGHT SIDE
 ========================= */

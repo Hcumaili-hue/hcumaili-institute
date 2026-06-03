@@ -12,21 +12,25 @@ HEADER
 
   background:#f5efe5;
 
-  border-bottom:1px solid rgba(0,0,0,.06);
+  backdrop-filter:blur(12px);
+
+  border-bottom:1px solid rgba(157,122,51,.12);
 }
 
 
 /* =========================
-BRAND
+BRAND SECTION
 ========================= */
 
 .header-brand{
 
-  max-width:1600px;
+  max-width:1500px;
 
   margin:auto;
 
-  padding:24px 5% 18px;
+  padding:28px 5% 22px;
+
+  border-bottom:1px solid rgba(157,122,51,.08);
 }
 
 
@@ -44,9 +48,9 @@ BRAND
 
 .site-logo img{
 
-  width:58px;
+  width:64px;
 
-  height:58px;
+  height:64px;
 
   object-fit:contain;
 }
@@ -64,13 +68,13 @@ BRAND
 
   margin:0;
 
-  color:#1b1b1b;
+  color:#111111;
 
-  font-size:2rem;
+  font-size:2.15rem;
 
   font-weight:700;
 
-  letter-spacing:.5px;
+  letter-spacing:1px;
 }
 
 
@@ -78,11 +82,13 @@ BRAND
 
   margin-top:6px;
 
-  color:#6b5d49;
+  color:#7a6a54;
 
-  font-size:.95rem;
+  font-size:.82rem;
 
-  font-weight:500;
+  text-transform:uppercase;
+
+  letter-spacing:2px;
 }
 
 
@@ -92,7 +98,7 @@ NAVBAR
 
 .navbar-container{
 
-  max-width:1600px;
+  max-width:1500px;
 
   margin:auto;
 
@@ -104,9 +110,7 @@ NAVBAR
 
   justify-content:space-between;
 
-  gap:50px;
-
-  border-top:1px solid rgba(0,0,0,.05);
+  gap:40px;
 }
 
 
@@ -120,18 +124,19 @@ NAVIGATION
 
   align-items:center;
 
-  gap:46px;
-
-  flex-wrap:wrap;
+  gap:52px;
 }
 
- .main-nav a{
+
+.main-nav a{
+
+  position:relative;
 
   text-decoration:none;
 
-  color:#222;
+  color:#111111;
 
-  font-size:1rem;
+  font-size:.95rem;
 
   font-weight:600;
 
@@ -142,10 +147,38 @@ NAVIGATION
   transition:.3s ease;
 }
 
+
 .main-nav a:hover{
 
-  color:#a78343;
+  color:#9d7a33;
 }
+
+
+.main-nav a::after{
+
+  content:"";
+
+  position:absolute;
+
+  left:0;
+
+  bottom:-8px;
+
+  width:0;
+
+  height:1px;
+
+  background:#9d7a33;
+
+  transition:.3s ease;
+}
+
+
+.main-nav a:hover::after{
+
+  width:100%;
+}
+
 
 /* =========================
 RIGHT SIDE
@@ -157,131 +190,5 @@ RIGHT SIDE
 
   align-items:center;
 
-  gap:18px;
-}
-
-
-/* =========================
-SEARCH
-========================= */
-
-.navbar-search{
-
-  position:relative;
-
-  width:280px;
-}
-
-.search-input{
-
-  width:100%;
-
-  padding:13px 18px 13px 46px;
-
-  border:none;
-
-  border-radius:40px;
-
-  background:#ffffff;
-
-  color:#222;
-
-  font-size:.9rem;
-
-  box-shadow:
-  0 2px 12px rgba(0,0,0,.05);
-
-  outline:none;
-}
-
-
-.search-input::placeholder{
-
-  color:#8b7d68;
-}
-
-
-.search-icon{
-
-  position:absolute;
-
-  left:16px;
-
-  top:50%;
-
-  transform:translateY(-50%);
-
-  color:#a78343;
-}
-
-
-/* =========================
-MENU BUTTON
-========================= */
-
-.menu-toggle{
-
-  width:46px;
-
-  height:46px;
-
-  border:none;
-
-  border-radius:50%;
-
-  background:#ffffff;
-
-  box-shadow:
-  0 2px 12px rgba(0,0,0,.05);
-
-  cursor:pointer;
-
-  color:#444;
-
-  font-size:1rem;
-
-  transition:.3s ease;
-}
-
-
-.menu-toggle:hover{
-
-  color:#a78343;
-}
-
-
-/* =========================
-MOBILE
-========================= */
-
-@media(max-width:1100px){
-
-  .main-nav{
-
-    display:none;
-  }
-
-  .navbar-search{
-
-    width:260px;
-  }
-}
-
-
-@media(max-width:700px){
-
-  .logo-text h2{
-
-    font-size:1.35rem;
-  }
-
-  .logo-text span{
-
-    font-size:.8rem;
-  }
-
-  .navbar-search{
-
-    display:none;
-  }
+  gap:14px;
 }

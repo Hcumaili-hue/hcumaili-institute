@@ -1,11 +1,11 @@
 const menuToggle =
 document.querySelector(
-  '.menu-toggle'
+  ".menu-toggle"
 );
 
 const menuPanel =
 document.querySelector(
-  '.menu-panel'
+  ".menu-panel"
 );
 
 if(
@@ -13,13 +13,39 @@ if(
   menuPanel
 ){
 
+  /* OPEN / CLOSE */
+
   menuToggle.addEventListener(
-    'click',
+    "click",
     () => {
 
       menuPanel.classList.toggle(
-        'active'
+        "active"
       );
+
+    }
+  );
+
+  /* CLOSE OUTSIDE */
+
+  document.addEventListener(
+    "click",
+    (event) => {
+
+      const clickInside =
+        menuPanel.contains(event.target)
+        ||
+        menuToggle.contains(event.target);
+
+      if(
+        !clickInside
+      ){
+
+        menuPanel.classList.remove(
+          "active"
+        );
+
+      }
 
     }
   );

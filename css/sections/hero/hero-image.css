@@ -113,3 +113,22 @@ BACKGROUND LOGO
 
   z-index:0;
 }
+.featured-project::before{
+
+  content:"";
+
+  position:absolute;
+
+  inset:0;
+
+  background:
+  url("assets/images/banner1.png")
+  center center
+  no-repeat;
+
+  background-size:85% auto;
+
+  opacity:.08;
+
+  pointer-events:none;
+}

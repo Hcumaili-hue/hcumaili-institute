@@ -18,6 +18,8 @@ STATS
   color:#7a6130;
 
   font-size:.88rem;
+
+  font-weight:500;
 }
 
 
@@ -31,7 +33,7 @@ HIGHLIGHTS
 
   border-radius:999px;
 
-  background:#ffffff;
+  background:#f8f3eb;
 
   border:
   1px solid
@@ -41,6 +43,8 @@ HIGHLIGHTS
 
   font-size:.9rem;
 
+  font-weight:500;
+
   transition:.3s ease;
 }
 
@@ -48,6 +52,9 @@ HIGHLIGHTS
 .hero-highlights span:hover{
 
   transform:translateY(-3px);
+
+  background:
+  rgba(200,169,107,.10);
 
   border-color:#c8a96b;
 }

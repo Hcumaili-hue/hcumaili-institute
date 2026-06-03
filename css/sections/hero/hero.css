@@ -1,166 +1,72 @@
 /* =========================
-FEATURED PROJECT
+HERO SECTION
 ========================= */
 
-.featured-project{
-
-  position:relative;
-
-  overflow:hidden;
+.hero-section{
 
   background:#f3ede2;
 
-  padding:120px 7%;
+  padding:
+  3rem 0
+  5rem;
 
-  border-top:
-  1px solid rgba(200,169,107,.08);
+  width:100%;
 
-  border-bottom:
-  1px solid rgba(200,169,107,.08);
+  overflow-x:hidden;
 }
 
 
 /* =========================
-BANNER BACKGROUND
+HERO BANNER
 ========================= */
 
-.featured-project::before{
+.hero-banner{
 
-  content:"";
+  width:100%;
 
-  position:absolute;
-
-  inset:0;
-
-  background-image:
-  url("assets/images/banner1.png");
-
-  background-repeat:no-repeat;
-
-  background-position:center;
-
-  background-size:55% auto;
-
-  opacity:.05;
-
-  pointer-events:none;
-}
-
-
-/* =========================
-CONTENT
-========================= */
-
-.featured-content{
-
-  position:relative;
-
-  z-index:2;
-
-  max-width:900px;
+  max-width:700px;
 
   margin:0 auto;
 
-  text-align:center;
+  padding:
+  2rem 1rem
+  2rem;
+
+  box-sizing:border-box;
 }
 
+.hero-banner img{
 
-/* =========================
-LABEL
-========================= */
+  width:100%;
 
-.section-label{
+  max-width:100%;
+
+  height:auto;
 
   display:block;
 
-  margin-bottom:20px;
-
-  color:#c8a96b;
-
-  font-size:.85rem;
-
-  letter-spacing:2px;
-
-  text-transform:uppercase;
-}
-
-
-/* =========================
-TITLE
-========================= */
-
-.featured-title{
-
-  margin:0 0 24px;
-
-  color:#111111;
-
-  font-size:3rem;
-
-  line-height:1.2;
-
-  font-weight:700;
-}
-
-
-/* =========================
-DESCRIPTION
-========================= */
-
-.featured-description{
-
   margin:0 auto;
 
-  max-width:760px;
+  border-radius:28px;
 
-  color:#5a5144;
+  border:
+  1px solid rgba(157,122,51,.14);
 
-  font-size:1.08rem;
-
-  line-height:1.9;
+  box-shadow:
+  0 18px 40px rgba(0,0,0,.08);
 }
 
 
 /* =========================
-TABLET
+MOBILE FIX
 ========================= */
 
-@media(max-width:900px){
+@media(max-width:768px){
 
-  .featured-title{
+  .hero-banner{
 
-    font-size:2.3rem;
-  }
-
-  .featured-project::before{
-
-    background-size:80% auto;
-  }
-
-}
-
-
-/* =========================
-MOBILE
-========================= */
-
-@media(max-width:600px){
-
-  .featured-project{
-
-    padding:90px 5%;
-  }
-
-  .featured-title{
-
-    font-size:1.9rem;
-  }
-
-  .featured-project::before{
-
-    background-size:95% auto;
-
-    opacity:.04;
+    padding:
+    1.2rem .9rem;
   }
 
 }

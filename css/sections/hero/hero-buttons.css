@@ -10,25 +10,37 @@ BUTTON WRAPPER
 
   gap:16px;
 
-  margin-top:10px;
+  margin-top:12px;
 }
 
 
 /* =========================
-PRIMARY
+PRIMARY BUTTON
 ========================= */
 
 .btn-primary{
+
+  display:inline-flex;
+
+  align-items:center;
+
+  justify-content:center;
+
+  padding:16px 32px;
+
+  border:none;
+
+  border-radius:999px;
 
   background:#111111;
 
   color:#f5efe5;
 
-  padding:16px 30px;
-
-  border-radius:999px;
-
   text-decoration:none;
+
+  font-weight:600;
+
+  letter-spacing:.5px;
 
   transition:.3s ease;
 }
@@ -39,24 +51,38 @@ PRIMARY
   background:#c8a96b;
 
   color:#111111;
+
+  transform:translateY(-2px);
 }
 
 
 /* =========================
-OUTLINE
+OUTLINE BUTTON
 ========================= */
 
 .btn-outline{
 
-  border:1px solid #c8a96b;
+  display:inline-flex;
 
-  color:#111111;
+  align-items:center;
 
-  padding:16px 30px;
+  justify-content:center;
+
+  padding:16px 32px;
 
   border-radius:999px;
 
+  border:1px solid rgba(200,169,107,.45);
+
+  background:rgba(255,255,255,.35);
+
+  color:#111111;
+
   text-decoration:none;
+
+  font-weight:600;
+
+  letter-spacing:.5px;
 
   transition:.3s ease;
 }
@@ -66,5 +92,9 @@ OUTLINE
 
   background:#c8a96b;
 
+  border-color:#c8a96b;
+
   color:#111111;
+
+  transform:translateY(-2px);
 }

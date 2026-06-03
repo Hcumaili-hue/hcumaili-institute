@@ -112,6 +112,10 @@ FEATURED PROJECT
 
 .featured-project{
 
+  position:relative;
+
+  overflow:hidden;
+
   background:#f3ede2;
 
   padding:120px 7%;
@@ -121,4 +125,40 @@ FEATURED PROJECT
 
   border-bottom:
   1px solid rgba(200,169,107,.08);
+}
+
+
+/* =========================
+BANNER BACKGROUND
+========================= */
+
+.featured-project::before{
+
+  content:"";
+
+  position:absolute;
+
+  inset:0;
+
+  background:
+  url("assets/images/banner1.png")
+  center center /
+  cover
+  no-repeat;
+
+  opacity:.07;
+
+  pointer-events:none;
+}
+
+
+/* =========================
+CONTENT
+========================= */
+
+.featured-project > *{
+
+  position:relative;
+
+  z-index:2;
 }

@@ -207,8 +207,30 @@ SEARCH
 
   color:#b89d63;
 }
+.side-menu > a{
 
+  display:flex;
 
+  align-items:center;
+
+  gap:14px;
+
+  padding:16px 0;
+
+  font-size:18px;
+
+  text-decoration:none;
+
+  color:#111111;
+}
+.side-menu > a i{
+
+  width:22px;
+
+  font-size:17px;
+
+  color:#8c6a2f;
+}
 /* =========================
 MOBILE BUTTON
 ========================= */

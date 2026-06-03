@@ -104,6 +104,8 @@ NAVBAR
 
   justify-content:space-between;
 
+  gap:50px;
+
   border-top:1px solid rgba(0,0,0,.05);
 }
 
@@ -118,17 +120,18 @@ NAVIGATION
 
   align-items:center;
 
-  gap:34px;
+  gap:46px;
+
+  flex-wrap:wrap;
 }
 
-
-.main-nav a{
+ .main-nav a{
 
   text-decoration:none;
 
   color:#222;
 
-  font-size:.92rem;
+  font-size:1rem;
 
   font-weight:600;
 
@@ -139,26 +142,10 @@ NAVIGATION
   transition:.3s ease;
 }
 
-
 .main-nav a:hover{
 
   color:#a78343;
 }
-
-
-/* GOLD DIVIDERS */
-
-.main-nav a:not(:last-child)::after{
-
-  content:"◆";
-
-  margin-left:30px;
-
-  color:#c6a76a;
-
-  font-size:.55rem;
-}
-
 
 /* =========================
 RIGHT SIDE
@@ -182,9 +169,8 @@ SEARCH
 
   position:relative;
 
-  width:360px;
+  width:280px;
 }
-
 
 .search-input{
 

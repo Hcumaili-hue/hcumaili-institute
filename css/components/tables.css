@@ -1,1 +1,108 @@
+/* =========================
+ACADEMIC TABLE SYSTEM
+========================= */
 
+.table-wrapper{
+
+  overflow-x:auto;
+
+  margin:40px 0;
+
+  border-radius:20px;
+}
+
+/* TABLE */
+
+.academic-table{
+
+  width:100%;
+
+  border-collapse:collapse;
+
+  background:#111111;
+
+  border:1px solid #2d2417;
+
+  border-radius:20px;
+
+  overflow:hidden;
+
+  box-shadow:
+  0 20px 60px rgba(0,0,0,.25);
+}
+
+/* HEADERS */
+
+.academic-table thead{
+
+  background:
+  linear-gradient(
+  135deg,
+  #c9a86a,
+  #e0c58d
+  );
+}
+
+.academic-table th{
+
+  padding:18px 22px;
+
+  color:#111111;
+
+  font-size:.95rem;
+
+  font-weight:700;
+
+  text-transform:uppercase;
+
+  letter-spacing:.08em;
+
+  text-align:left;
+}
+
+/* CELLS */
+
+.academic-table td{
+
+  padding:18px 22px;
+
+  color:#f2ede4;
+
+  border-top:1px solid #2d2417;
+
+  line-height:1.7;
+}
+
+/* ROW EFFECT */
+
+.academic-table tbody tr{
+
+  transition:.3s ease;
+}
+
+.academic-table tbody tr:hover{
+
+  background:
+  rgba(201,168,106,.08);
+
+  transform:translateX(6px);
+}
+
+/* ALTERNATE ROWS */
+
+.academic-table tbody tr:nth-child(even){
+
+  background:
+  rgba(255,255,255,.02);
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+  .academic-table th,
+  .academic-table td{
+
+    padding:14px;
+  }
+}
